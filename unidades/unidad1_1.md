@@ -5,41 +5,53 @@ remote_theme: pages-themes/cayman@v0.2.0
 
 # Unidad 1: Introducción a sistemas telemáticos
 
-# OBJETIVO DE APRENDIZAJE
+## 🎯 Objetivo de Aprendizaje
 Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para la comunicación entre diferentes redes.
 
-## La comunicación en un mundo conectado
-# ¿Qué es la red?
+# 1.1. Arquitectura de comunicación de datos
+- [¿Qué es la Red?](#definicion)
+    - [Redes locales](#redes_locales)
+    - [Conexiones](#conexiones)
+    - [Datos](#datos)
+- [Comunicación en Red](#comunicacion)
+- [Protocolos de Red](#protocolos)
+- [Componentes de Red](#protocolos)
+- [¿Qué es un sistema telemático?](#sistema_telematico)
+- [Modelo de Estructura de Red]
+- [Referencias](#referencias)
+
+<a name="definicion"> </a>
+## 🌐 ¿Qué es la Red?
+
+<a name="redes_locales"> </a>
 ### **Redes locales**
 Las redes locales vienen en todos los tamaños: entre pares (dos dispositivos interconectados) o redes domésticas, hasta redes SOHO y redes de organizaciones grandes.
 
-### **Hacer conexiones**
+<a name="conexiones"> </a>
+### **Conexiones**
 Todos los tipos de dispositivos se conectan a redes locales.
 
-### **¿Qué son exactamente los datos?**
+<a name="datos"> </a>
+### **Datos**
 La mayoría de la gente utiliza redes para transmitir sus propios datos para compartirlos con otras personas o para almacenarlos a largo plazo.
-# ¿Qué es la comunicación en red?
-## Establecimiento de reglas
 
-+ Un emisor y un receptor identificados
-+ Método de comunicación acordado
-+ Idioma y gramática común
-+ Velocidad y momento de entrega
-+ Requisitos de confirmación o acuse de recibo 
-## ¿Qué es la comunicación en red?
-# Tamaño del mensaje
-Las restricciones de tamaño de las tramas requieren que el host de origen divida un mensaje largo en fragmentos individuales que cumplan los requisitos de tamaño mínimo y máximo. 
-Esto se conoce como segmentación. 
-Cada segmento se encapsula en una trama separada con la información de la dirección y se envía a través de la red. 
-En el host receptor, los mensajes se desencapsulan y se vuelven a unir para su procesamiento e interpretación.
-# Protocolos de red
-imagen
-# Protocolos de red
-+ Formato o estructuración del mensaje.
-+ Proceso por el cual los dispositivos de red comparten información sobre las rutas con otras redes.
-+ Cómo y cuándo se transmiten mensajes de error y del sistema entre los dispositivos.
-+ La configuración y la terminación de sesiones de transferencia de datos.
-# Conexiones de redes locales
+<a name="comunicacion"> </a>
+## 🌐 Comunicación en red
+- Un emisor y un receptor identificados
+- Método de comunicación acordado
+- Idioma y gramática común
+- Velocidad y momento de entrega
+- Requisitos de confirmación o acuse de recibo
+
+<a name="protocolos"> </a>
+## 🌐 Protocolos de red
+- Formato o estructuración del mensaje.
+- Proceso por el cual los dispositivos de red comparten información sobre las rutas con otras redes.
+- Cómo y cuándo se transmiten mensajes de error y del sistema entre los dispositivos.
+- La configuración y la terminación de sesiones de transferencia de datos.
+
+<a name="compontes"> </a>
+## 🌐 Componentes de Red
 La configuración IP consta de tres partes, que deben ser correctas para que el dispositivo envíe y reciba información por 
 la red:
 - Dirección IP: Identifica al host en la red.
@@ -49,17 +61,18 @@ que está conectado el host.
 acceder a Internet o a otra red remota.
 
 Una dirección IP puede configurarse manualmente o ser asignada automáticamente por otro dispositivo (DHCP).
-# Componentes de red
-imagen
-# ¿Qué es un sistema telemático?
+
+<a name="sistema_telematico"> </a>
+## 🌐 ¿Qué es un sistema telemático?
 Es un sistema compuesto por dispositivos interconectados a la red de datos, diseñados para realizar una función específica siendo una combinación de ambos hardware y software.
 imagen
-+ Puede o no puede contener un sistema operativo para el funcionamiento.
-+ El firmware es pre-programado y no alterado por el usuario final.
-+ Los requerimientos de aplicaciones específicas como uso de rendimiento, energía, memoria son factores decisivos.
-## Protocolos de red
-# Modelos
-imagen
+- Puede o no puede contener un sistema operativo para el funcionamiento.
+- El firmware es pre-programado y no alterado por el usuario final.
+- Los requerimientos de aplicaciones específicas como uso de rendimiento, energía, memoria son factores decisivos.
+
+<a name="modelo_red"> </a>
+## 🌐 Modelos de estructura de red
+
 ##  Direcciones IPv4 y máscaras de subred
 # Estructura de la dirección IP
 
