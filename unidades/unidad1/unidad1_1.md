@@ -36,7 +36,7 @@ Todos los tipos de dispositivos se conectan a redes locales.
 La mayoría de la gente utiliza redes para transmitir sus propios datos para compartirlos con otras personas o para almacenarlos a largo plazo.
 
 <p align="center">
-  <img src="../gifs/networks.gif" style="width: 20%; height: 100px; float: left; padding: 5px;" alt="networks">
+  <img src="../gifs/networks.gif" alt="networks" width:¨15%¨>
 </p>
 
 <a name="comunicacion"> </a>
@@ -46,6 +46,10 @@ La mayoría de la gente utiliza redes para transmitir sus propios datos para com
 - Idioma y gramática común
 - Velocidad y momento de entrega
 - Requisitos de confirmación o acuse de recibo
+
+<p align="center">
+  <img src="../imagenes/comunicacion.png" alt="networks" width:¨15%¨>
+</p>
 
 <a name="protocolos"> </a>
 ## 🌐 Protocolos de red
