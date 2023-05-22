@@ -35,6 +35,10 @@ Todos los tipos de dispositivos se conectan a redes locales.
 ### **Datos**
 La mayoría de la gente utiliza redes para transmitir sus propios datos para compartirlos con otras personas o para almacenarlos a largo plazo.
 
+<p align="center">
+  <img src="../gifs/networks.gif" style="width: 20%; height: 100px; float: left; padding: 5px;" alt="networks">
+</p>
+
 <a name="comunicacion"> </a>
 ## 🌐 Comunicación en red
 - Un emisor y un receptor identificados
