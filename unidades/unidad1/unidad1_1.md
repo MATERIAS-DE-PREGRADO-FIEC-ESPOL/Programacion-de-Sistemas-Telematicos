@@ -15,7 +15,7 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
     - [Datos](#datos)
 - [Comunicación en Red](#comunicacion)
 - [Protocolos de Red](#protocolos)
-- [Componentes de Red](#protocolos)
+- [Componentes de Red](#componentes)
 - [¿Qué es un sistema telemático?](#sistema_telematico)
 - [Modelo de Estructura de Red]
 - [Referencias](#referencias)
@@ -36,11 +36,7 @@ Todos los tipos de dispositivos se conectan a redes locales.
 La mayoría de la gente utiliza redes para transmitir sus propios datos para compartirlos con otras personas o para almacenarlos a largo plazo.
 
 <p align="center">
-  <img src="../imagenes/industria-linux.png" alt="industria" width="70%">
-</p>
-
-<p align="center">
-  <img src="../gifs/networks.gif" alt="networks" width:"15%">
+  <img src="../gifs/networks.gif" alt="networks" width="60%">
 </p>
 
 <a name="comunicacion"> </a>
@@ -52,7 +48,7 @@ La mayoría de la gente utiliza redes para transmitir sus propios datos para com
 - Requisitos de confirmación o acuse de recibo
 
 <p align="center">
-  <img src="../imagenes/comunicacion.png" alt="networks" width:"15%">
+  <img src="../imagenes/communication.png" alt="communications" width="60%">
 </p>
 
 <a name="protocolos"> </a>
@@ -62,8 +58,16 @@ La mayoría de la gente utiliza redes para transmitir sus propios datos para com
 - Cómo y cuándo se transmiten mensajes de error y del sistema entre los dispositivos.
 - La configuración y la terminación de sesiones de transferencia de datos.
 
-<a name="compontes"> </a>
+<p align="center">
+  <img src="../imagenes/protocols.png" alt="protocols" width="70%">
+</p>
+
+<a name="componentes"> </a>
 ## 🌐 Componentes de Red
+<p align="center">
+  <img src="../imagenes/configip.jpg" style="width: 40%; height: 200px; float: right; padding: 15px;" alt="configip">
+</p>
+
 La configuración IP consta de tres partes, que deben ser correctas para que el dispositivo envíe y reciba información por 
 la red:
 - Dirección IP: Identifica al host en la red.
@@ -74,6 +78,10 @@ acceder a Internet o a otra red remota.
 
 Una dirección IP puede configurarse manualmente o ser asignada automáticamente por otro dispositivo (DHCP).
 
+<p align="center">
+  <img src="../imagenes/componentes_red.png" alt="componentes" width="60%">
+</p>
+
 <a name="sistema_telematico"> </a>
 ## 🌐 ¿Qué es un sistema telemático?
 Es un sistema compuesto por dispositivos interconectados a la red de datos, diseñados para realizar una función específica siendo una combinación de ambos hardware y software.
@@ -81,6 +89,10 @@ imagen
 - Puede o no puede contener un sistema operativo para el funcionamiento.
 - El firmware es pre-programado y no alterado por el usuario final.
 - Los requerimientos de aplicaciones específicas como uso de rendimiento, energía, memoria son factores decisivos.
+
+<p align="center">
+  <img src="../imagenes/sistema_telematico.png" alt="telematico" width="60%">
+</p>
 
 <a name="modelo_red"> </a>
 ## 🌐 Modelos de estructura de red
