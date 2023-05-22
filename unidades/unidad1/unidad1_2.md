@@ -14,3 +14,6 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 <a name="modelo_red"> </a>
 ## 🌐 Modelos de estructura de red
+<p align="center">
+  <img src="../imagenes/modelos_red.png" alt="modelos_red" width="80%">
+</p>
