@@ -13,7 +13,7 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 - [Conversión de decimal en binario](#conversiondecimal)
 - [Máscara de subred IPv4](#mascara_red)
     - [Porción de red y porción de host](#porcion)
-    - [Direcciones IPv4 de red, host y broadcast](#direccion_red)
+    - [Direcciones IPv4 de red, host, y broadcast](#direccion_red)
 - [Referencias](#referencias)
 
 <a name="direccion"> </a>
@@ -29,7 +29,7 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 ## 🌐 Máscara de subred IPv4
 
 <a name="porcion"> </a>
-### 🕸️ **Porción de red y porción de host de una dirección IPv4**
+### 🕸️ **Porción de red y porción de host**
 
 <p align="center">
   <img src="../imagenes/porcion_red.png" alt="porcion_red" width="60%">
@@ -39,7 +39,7 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 
 <a name="direccion_red"> </a>
-### 🕸️ **Direcciones IPv4 de red, host y broadcast**
+### 🕸️ **Direcciones IPv4 de red, host, y broadcast**
 
 <p align="center">
   <img src="../imagenes/red_host_broadcast.png" alt="red_host_broadcast" width="80%">
