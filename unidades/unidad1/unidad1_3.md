@@ -22,8 +22,10 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 <a name="conversiondecimal"> </a>
 ## 🌐 Conversión de decimal en binario
+
 <p align="center">
   <img src="../imagenes/conversion_decimal.png  " alt="conversion_decimal" width="60%">
+
 
 <a name="mascara_red"> </a>
 ## 🌐 Máscara de subred IPv4
