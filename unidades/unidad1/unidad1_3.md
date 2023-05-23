@@ -30,17 +30,21 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 <a name="porcion"> </a>
 ### 🕸️ **Porción de red y porción de host de una dirección IPv4**
+
 <p align="center">
   <img src="../imagenes/porcion_red.png" alt="porcion_red" width="60%">
 
 - Para definir las porciones de red y de host de una dirección, los dispositivos utilizan un patrón de 32 bits separado conocido como “máscara de subred”.
 - La máscara de subred no contiene realmente las porciones de red y de host de la dirección IPv4, sino que tan solo indica dónde buscar estas porciones en una dirección IPv4 determinada.
 
+
 <a name="direccion_red"> </a>
 ### 🕸️ **Direcciones IPv4 de red, host y broadcast**
 
 <p align="center">
   <img src="../imagenes/red_host_broadcast.png" alt="red_host_broadcast" width="80%">
+
+
 
 ## Direcciones IPv4 unicast, broadcast y multicast
 # Asignación de una dirección IPv4 estática a un host
