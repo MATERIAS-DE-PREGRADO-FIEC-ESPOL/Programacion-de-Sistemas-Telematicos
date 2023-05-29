@@ -149,6 +149,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
   </tr>
 </tbody>
 </table>
+<<<<<<< Updated upstream
 =======
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de segmentos físicos:</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">13</span></td>
@@ -487,5 +488,8 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </table>
 
 4. La empresa de servicios de Internet Adita S.A. tiene la matriz en Cuenca y las sucursales en Guayaquil y Quito. Analice la topología de la red, luego identifique los problemas existentes detallando en qué capa del Modelo OSI ocurren estos problemas, y proponga una solución. (40 puntos)
+
+>>>>>>> Stashed changes
+=======
 
 >>>>>>> Stashed changes
