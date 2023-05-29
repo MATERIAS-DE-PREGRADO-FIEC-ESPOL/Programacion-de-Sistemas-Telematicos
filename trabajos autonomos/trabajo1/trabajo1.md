@@ -47,113 +47,83 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 
 1.	Efectuar el cálculo de división de subredes usando el direccionamiento IPv4 propuesto en los 5 escenarios. A continuación, se presenta un escenario con la resolución, el cual fue explicado durante la sesión de clase: **(30 puntos)**
 
-**Escenario 0 (Resuelto)**
-
-
-|Escenario 0 (Resuelto)|
-|---|---|
-|Número de segmentos físicos:|5|
-|---|---|
-|Máximo número de hosts / Segmento físico: |5000|
-|---|---|
-|Dirección de red:|152.77.0.0|
-|Número de subredes soportadas:
-    23=8 subredes
-Máximo número de hosts por subred:
-213=8192 - 2=8190 hosts
-Máscara de subred propuesta:
-
-11111111.11111111.11100000.00000000
-
-Máscara de subred
-=255.255.224.0
-Prefijo CIDR= /19
-
-Explicación: Una vez que tengo cuantas subredes y hosts me pide el ejercicio, tomo los 3 bits encendidos para subredes y 13 bits apagados para hosts, pero solo tomaré el tercer octeto que tiene la parte variable con los 5 bits apagados para formar 25=32 saltos como se muestra a continuación.
-
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-l49g{border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-mcqj{border-color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 873px">
+<table class="tg" style="undefined;table-layout: fixed; width: 646px">
 <colgroup>
 <col style="width: 304px">
 <col style="width: 342px">
-<col style="width: 227px">
 </colgroup>
 <thead>
   <tr>
-    <th class="tg-c3ow" colspan="3"><span style="font-weight:700">Escenario 0 (Resuelto)</span></th>
+    <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 0 (Resuelto)</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-fymr">Número de segmentos físicos:</td>
-    <td class="tg-0pky" colspan="2">5</td>
+    <td class="tg-mcqj">Número de segmentos físicos:</td>
+    <td class="tg-73oq">5</td>
   </tr>
   <tr>
-    <td class="tg-fymr"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts / Segmento físico:</span></td>
-    <td class="tg-0pky" colspan="2">5000</td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts / Segmento físico:</span></td>
+    <td class="tg-73oq">5000</td>
   </tr>
   <tr>
-    <td class="tg-fymr"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
-    <td class="tg-0pky" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.0</span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.0</span></td>
   </tr>
   <tr>
-    <td class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
-    <td class="tg-0lax" colspan="2">23=8 subredes</td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
+    <td class="tg-73oq">2=8 subredes</td>
   </tr>
   <tr>
-    <td class="tg-1wig">Máscara de subred propuesta:</td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">11111111.11111111.</span><br><span style="font-weight:700;font-style:normal;text-decoration:none">111</span><br><span style="font-weight:700;font-style:normal;text-decoration:underline">00000</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">.00000000</span><br><br><span style="font-weight:400;font-style:normal;text-decoration:none">Máscara de subred</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">=255.255.</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">224</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">.0</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Prefijo CIDR= /19</span><br><br><span style="font-weight:400;font-style:normal;text-decoration:none">Explicación: Una vez que tengo cuantas subredes y hosts me pide el ejercicio, tomo los 3 bits encendidos para subredes y 13 bits apagados para hosts, pero solo tomaré el tercer octeto que tiene la parte variable con los 5 bits apagados para formar 2</span><br>5 = 32 saltos como se muestra a continuación.</td>
-    <td class="tg-0lax"></td>
+    <td class="tg-mcqj">Máscara de subred propuesta:</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none">11111111.11111111.</span><span style="font-weight:700">11100000</span>.00000000<br><br><span style="font-weight:400;font-style:normal;text-decoration:none">=255.255.</span>224.0<br><span style="font-weight:400;font-style:normal;text-decoration:none">= Prefijo CIDR= /19</span><br><br><span style="font-weight:400;font-style:normal;text-decoration:none">Explicación: Una vez que tengo cuantas subredes y hosts me pide el ejercicio, tomo los 3 bits encendidos para subredes y 13 bits apagados para hosts, pero solo tomaré el tercer octeto que tiene la parte variable con los 5 bits apagados para formar 2</span><br>5 = 32 saltos como se muestra a continuación.</td>
   </tr>
   <tr>
-    <td class="tg-amwm" rowspan="9">Rangos de host válidos por subred:</td>
-    <td class="tg-1wig">Subred</td>
-    <td class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
+    <td class="tg-mqa1">Subred</td>
+    <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.0</span></td>
-    <td class="tg-0lax"><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.1 – 152.77.31.254</span></td>
+    <td class="tg-mcqj"><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.0</span></td>
+    <td class="tg-73oq"><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.1 – 152.77.31.254</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.32.0</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.32.1 – 152.77.63.254</span></td>
+    <td class="tg-mcqj"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.32.0</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.32.1 – 152.77.63.254</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.64.0</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.64.1 – 152.77.95.254</span></td>
+    <td class="tg-mcqj"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.64.0</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.64.1 – 152.77.95.254</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.96.0</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.96.1 – 152.77.127.254</span></td>
+    <td class="tg-mcqj"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.96.0</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.96.1 – 152.77.127.254</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.128.0</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.128.1 – 152.77.159.254</span></td>
+    <td class="tg-mcqj"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.128.0</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.128.1 – 152.77.159.254</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.160.0</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.160.1 – 152.77.191.254</span></td>
+    <td class="tg-mcqj"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.160.0</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.160.1 – 152.77.191.254</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.192.0</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.192.1 – 152.77.223.254</span></td>
+    <td class="tg-mcqj"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.192.0</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.192.1 – 152.77.223.254</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:#0FF">224</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">.0</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.224.1 – 152.77.255.254</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:#0FF">224</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">.0</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.224.1 – 152.77.255.254</span></td>
   </tr>
 </tbody>
 </table>
-
