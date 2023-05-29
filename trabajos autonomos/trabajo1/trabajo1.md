@@ -1,6 +1,14 @@
-# Trabajo Autónomo:
-  ## Unidad 1 Introducción a Sistemas Telemáticos
-### Objetivo de Aprendizaje:
+---
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme
+---
+
+[Regresar](/Programacion-de-Sistemas-Telematicos/)
+
+# Trabajo autónomo 1 División de subredes con direccionamiento IPv4
+
+## 🎯 Objetivo de Aprendizaje
 Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para la comunicación entre diferentes redes.
 
 **Recursos:** Procesador de texto, lápiz, papel, calculadora.
