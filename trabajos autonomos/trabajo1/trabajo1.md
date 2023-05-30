@@ -65,7 +65,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </colgroup>
 <thead>
   <tr>
-    <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 0 (Resuelto)</span></th>
+    <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 0 [Resuelto]</span></th>
   </tr>
 </thead>
 <tbody>
@@ -74,7 +74,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
     <td class="tg-73oq">5</td>
   </tr>
   <tr>
-    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts / Segmento físico:</span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts:</span></td>
     <td class="tg-73oq">5000</td>
   </tr>
   <tr>
@@ -82,20 +82,24 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.0</span></td>
   </tr>
   <tr>
-    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
-    <td class="tg-73oq">2<sup>3</sup>=8 subredes</td>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
+    <td class="tg-73oq">2<sup>3</sup> = 8 subredes</td>
+  </tr>
+  <tr>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts por subred:</span></td>
+    <td class="tg-73oq">2<sup>13</sup>= 8192 - 2 = 8190 hosts subredes</td>
   </tr>
   <tr>
     <td class="tg-mcqj">Máscara de subred propuesta:</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none">11111111.11111111.</span><span style="font-weight:700">11100000</span>.00000000<br><br><span style="font-weight:400;font-style:normal;text-decoration:none">=255.255.</span>224.0<br><span style="font-weight:400;font-style:normal;text-decoration:none">= Prefijo CIDR= /19</span><br><br><span style="font-weight:400;font-style:normal;text-decoration:none">Explicación: Una vez que tengo cuantas subredes y hosts me pide el ejercicio, tomo los 3 bits encendidos para subredes y 13 bits apagados para hosts, pero solo tomaré el tercer octeto que tiene la parte variable con los 5 bits apagados para formar 2<sup>5</sup> = 32 saltos como se muestra a continuación.</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none">11111111.11111111.</span><span style="font-weight:700">11100000</span>.00000000<br><br><span style="font-weight:400;font-style:normal;text-decoration:none">= 255.255.</span>224.0<br><span style="font-weight:400;font-style:normal;text-decoration:none">= Prefijo CIDR= /19</span><br><br><span style="font-weight:400;font-style:normal;text-decoration:none">Explicación: Una vez que tengo cuantas subredes y hosts me pide el ejercicio, tomo los 3 bits encendidos para subredes y 13 bits apagados para hosts, pero solo tomaré el tercer octeto que tiene la parte variable con los 5 bits apagados para formar 2<sup>5</sup> = 32 saltos como se muestra a continuación.</td>
   </tr>
   <tr>
     <td class="tg-mqa1">Subred</td>
     <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
   <tr>
-    <td class="tg-mcqj"><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.0</span></td>
-    <td class="tg-73oq"><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.1 – 152.77.31.254</span></td>
+    <td class="tg-mcqj"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.0</span></td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.0.1 – 152.77.31.254</span></td>
   </tr>
   <tr>
     <td class="tg-mcqj"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.32.0</span></td>
@@ -128,7 +132,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </tbody>
 </table>
 
-
+<br>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
@@ -153,271 +157,255 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de segmentos físicos:</span></td>
+    <td class="tg-mcqj">Número de segmentos físicos:</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">13</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host/Segmento físico: </span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts:</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3600</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
+        <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">132.45.0.0</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+  </tr>
+  <tr>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts por subred:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+  </tr>
+  <tr>
+     <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">          </span></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host ID por subred: </span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Subred</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida. </span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-mqa1">Subred</td>
+    <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
 </tbody>
 </table>
 
-
-
+<br>
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-l49g{border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-mcqj{border-color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="undefined;table-layout: fixed; width: 646px">
+<colgroup>
+<col style="width: 304px">
+<col style="width: 342px">
+</colgroup>
 <thead>
   <tr>
-    <th class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Escenario 2</span></th>
+    <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 2</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de segmentos físicos:</span></td>
+   <td class="tg-mcqj">Número de segmentos físicos:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">26</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host/Segmento físico: </span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">6</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">192.69.50.0</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts por subred:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host ID por subred: </span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+     <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">          </span></td>
   </tr>
   <tr>
-    <td class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Rangos de Subredes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Subred</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida. </span></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"><br><br><br><br><br></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+    <td class="tg-mqa1">Subred</td>
+    <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
 </tbody>
 </table>
 
+<br>
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-l49g{border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-mcqj{border-color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="undefined;table-layout: fixed; width: 646px">
+<colgroup>
+<col style="width: 304px">
+<col style="width: 342px">
+</colgroup>
 <thead>
   <tr>
-    <th class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Escenario 3</span></th>
+    <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 3</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de segmentos físicos:</span></td>
+    <td class="tg-mcqj">Número de segmentos físicos:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">60</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host/Segmento físico: </span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">235000</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
+  <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">   86.0.0.0</span></td>
   </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+<tr>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts por subred:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host ID por subred: </span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+     <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">          </span></td>
   </tr>
   <tr>
-    <td class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Rangos de Subredes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Subred</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida. </span></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"><br><br><br><br><br></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
+    <td class="tg-mqa1">Subred</td>
+    <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
 </tbody>
 </table>
 
+<br>
+
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-l49g{border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-mcqj{border-color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="undefined;table-layout: fixed; width: 646px">
+<colgroup>
+<col style="width: 304px">
+<col style="width: 342px">
+</colgroup>
 <thead>
   <tr>
-    <th class="tg-amwm" colspan="3"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Escenario 4</span></th>
+    <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 4</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de segmentos físicos:</span></td>
+    <td class="tg-mcqj">Número de segmentos físicos:</span></td>
     <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">250</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host/Segmento físico: </span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts:</span></td>
     <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">200</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
     <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">175.215.0.0</span></td>
   </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
-    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">      </span></td>
+<tr>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas</span></td>
-    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">      </span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts por subred:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host ID por subred: </span></td>
-    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">      </span></td>
+     <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">          </span></td>
   </tr>
   <tr>
-    <td class="tg-amwm" colspan="3"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Rangos de Subredes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Subred</span></td>
-    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida. </span></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"><br><br><br><br><br></td>
-    <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">      </span></td>
+    <td class="tg-mqa1">Subred</td>
+    <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
 </tbody>
 </table>
 
+<br>
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-l49g{border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-mcqj{border-color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="undefined;table-layout: fixed; width: 646px">
+<colgroup>
+<col style="width: 304px">
+<col style="width: 342px">
+</colgroup>
 <thead>
   <tr>
-    <th class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Escenario 5</span></th>
-    <th class="tg-0lax"></th>
+    <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 5</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de segmentos físicos:</span></td>
+    <td class="tg-mcqj">Número de segmentos físicos:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3</span></td>
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host/Segmento físico: </span></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">56</span></td>
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">192.115.30.0</span></td>
     <td class="tg-0lax"></td>
   </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
-    <td class="tg-0lax"></td>
+<tr>
+<td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de hosts por subred:</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host ID por subred: </span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
-    <td class="tg-0lax"></td>
+     <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">          </span></td>
   </tr>
   <tr>
-    <td class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Rangos de Subredes</span></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Subred</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida. </span></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"><br><br><br><br><br></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-mqa1">Subred</td>
+    <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
 </tbody>
 </table>
@@ -483,6 +471,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
   </tr>
 </tbody>
 </table>
+
 
 4. La empresa de servicios de Internet Adita S.A. tiene la matriz en Cuenca y las sucursales en Guayaquil y Quito. Analice la topología de la red, luego identifique los problemas existentes detallando en qué capa del Modelo OSI ocurren estos problemas, y proponga una solución. (40 puntos)
 
