@@ -415,16 +415,22 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 
 2. Determine  la  dirección de subred,  dirección  de  difusión (broadcast) y el rango de hosts válidos **10 puntos**: 
 <br>
+<br>
 - 180.42.67.2/19
-- 211.227.54.139/23
+
+- 176.128.64.40/23
+
 - 107.194.140.27/14
-- 11.53.135.37/
-- 134.52.114.149/17
+
+- 230.53.192.37/10
+
+- 192.18.81.4/17
 
 <br>
-3. Dada una red de Clase B y los bits de red identificados (CIDR), complete la siguiente tabla para identificar la máscara de subred y el número de direcciones de host posibles para cada máscara: **(10 puntos)**
 <br>
+3. Dada una red de Clase B y los bits de red identificados (CIDR), complete la siguiente tabla para identificar la máscara de subred y el número de direcciones de host posibles para cada máscara **(10 puntos)**:
 
+<br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
