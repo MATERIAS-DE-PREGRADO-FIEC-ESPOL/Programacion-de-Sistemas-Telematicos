@@ -410,17 +410,14 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </tbody>
 </table>
 
-2. Determine  la  dirección de subred,  dirección  de  difusión (broadcast)    y    el   rango  de  hosts  válidos: (10 puntos)
+<br>
 
-- 212.139.22. 100/26
+2. Determine  la  dirección de subred,  dirección  de  difusión (broadcast) y el rango de hosts válidos: **(10 puntos)**
 
-- 211.227.54. 139/23
-
-     
-- 107.194.140. 27/14
-
-- 11.53.135. 37/10
-
+- 212.139.22.100/26
+- 211.227.54.139/23
+- 107.194.140.27/14
+- 11.53.135.37/10
 - 134.52.114. 149/17
 
 3. Dada una red de Clase B y los bits de red identificados (CIDR), complete la siguiente tabla para identificar la máscara de subred y el número de direcciones de host posibles para cada máscara: **(10 puntos)**
@@ -438,9 +435,9 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">CIDR</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred (formato decimal)</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de host por subred (2</span>x <span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">– 2)</span></th>
+    <th class="tg-l49g" colspan="1"><span style="font-weight:700">CIDR</span></th>
+    <th class="tg-l49g" colspan="1"><span style="font-weight:700">Máscara de subred (formato decimal)</span></th>
+    <th class="tg-l49g" colspan="1"><span style="font-weight:700">Número de host por subred (2<sup> x </sup> - 2)</span></span></th>
   </tr>
 </thead>
 <tbody>
