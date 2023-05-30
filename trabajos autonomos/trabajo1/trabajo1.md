@@ -45,7 +45,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 
 ## ACTIVIDADES
 
-1.	Efectuar el cálculo de división de subredes usando el direccionamiento IPv4 propuesto en los 5 escenarios. A continuación, se presenta un escenario con la resolución, el cual fue explicado durante la sesión de clase: **(30 puntos)**
+1.	Efectuar el cálculo de división de subredes usando el direccionamiento IPv4 propuesto en los 5 escenarios. A continuación, se presenta un escenario con la resolución, el cual fue explicado durante la sesión de clase **(30 puntos)**: 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
@@ -413,15 +413,17 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 
 <br>
 
-2. Determine  la  dirección de subred,  dirección  de  difusión (broadcast) y el rango de hosts válidos: **(10 puntos)**
-
-- 212.139.22.100/26
+2. Determine  la  dirección de subred,  dirección  de  difusión (broadcast) y el rango de hosts válidos **10 puntos**: 
+<br>
+- 180.42.67.2/19
 - 211.227.54.139/23
 - 107.194.140.27/14
-- 11.53.135.37/10
+- 11.53.135.37/
 - 134.52.114.149/17
 
+<br>
 3. Dada una red de Clase B y los bits de red identificados (CIDR), complete la siguiente tabla para identificar la máscara de subred y el número de direcciones de host posibles para cada máscara: **(10 puntos)**
+<br>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
