@@ -47,6 +47,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 
 1.	Efectuar el cálculo de división de subredes usando el direccionamiento IPv4 propuesto en los 5 escenarios. A continuación, se presenta un escenario con la resolución, el cual fue explicado durante la sesión de clase: **(30 puntos)**
 
+<<<<<<< Updated upstream
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
 .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
@@ -66,10 +67,31 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 <thead>
   <tr>
     <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 0 (Resuelto)</span></th>
+=======
+
+
+**Escenario 1**
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-7btt" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Escenario 1</span></th>
+>>>>>>> Stashed changes
   </tr>
 </thead>
 <tbody>
   <tr>
+<<<<<<< Updated upstream
     <td class="tg-mcqj">Número de segmentos físicos:</td>
     <td class="tg-73oq">5</td>
   </tr>
@@ -83,11 +105,11 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
   </tr>
   <tr>
     <td class="tg-mcqj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas:</span></td>
-    <td class="tg-73oq">2<sup>3</sup>=8 subredes</td>
+    <td class="tg-73oq">2=8 subredes</td>
   </tr>
   <tr>
     <td class="tg-mcqj">Máscara de subred propuesta:</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none">11111111.11111111.</span><span style="font-weight:700">11100000</span>.00000000<br><br><span style="font-weight:400;font-style:normal;text-decoration:none">=255.255.</span>224.0<br><span style="font-weight:400;font-style:normal;text-decoration:none">= Prefijo CIDR= /19</span><br><br><span style="font-weight:400;font-style:normal;text-decoration:none">Explicación: Una vez que tengo cuantas subredes y hosts me pide el ejercicio, tomo los 3 bits encendidos para subredes y 13 bits apagados para hosts, pero solo tomaré el tercer octeto que tiene la parte variable con los 5 bits apagados para formar 2<sup>5</sup> = 32 saltos como se muestra a continuación.</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none">11111111.11111111.</span><span style="font-weight:700">11100000</span>.00000000<br><br><span style="font-weight:400;font-style:normal;text-decoration:none">=255.255.</span>224.0<br><span style="font-weight:400;font-style:normal;text-decoration:none">= Prefijo CIDR= /19</span><br><br><span style="font-weight:400;font-style:normal;text-decoration:none">Explicación: Una vez que tengo cuantas subredes y hosts me pide el ejercicio, tomo los 3 bits encendidos para subredes y 13 bits apagados para hosts, pero solo tomaré el tercer octeto que tiene la parte variable con los 5 bits apagados para formar 2</span><br>5 = 32 saltos como se muestra a continuación.</td>
   </tr>
   <tr>
     <td class="tg-mqa1">Subred</td>
@@ -127,68 +149,10 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
   </tr>
 </tbody>
 </table>
+=======
+   
 
-
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
-.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-l49g{border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
-.tg .tg-mcqj{border-color:#000000;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
-</style>
-<table class="tg" style="undefined;table-layout: fixed; width: 646px">
-<colgroup>
-<col style="width: 304px">
-<col style="width: 342px">
-</colgroup>
-<thead>
-  <tr>
-    <th class="tg-l49g" colspan="2"><span style="font-weight:700">Escenario 1</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de segmentos físicos:</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">13</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host/Segmento físico: </span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3600</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dirección de red:</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">132.45.0.0</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máscara de subred propuesta: </span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">          </span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Número de subredes soportadas</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Máximo número de Host ID por subred: </span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">     </span></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Subred</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida. </span></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-</tbody>
-</table>
-
-
-
+**Escenario 2**
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -486,3 +450,4 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 
 4. La empresa de servicios de Internet Adita S.A. tiene la matriz en Cuenca y las sucursales en Guayaquil y Quito. Analice la topología de la red, luego identifique los problemas existentes detallando en qué capa del Modelo OSI ocurren estos problemas, y proponga una solución. (40 puntos)
 
+>>>>>>> Stashed changes
