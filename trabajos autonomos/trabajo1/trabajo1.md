@@ -130,7 +130,6 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
   <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.224.1 – 152.77.255.254</span></td>
   </tr>
 </tbody>
-</table>
 
 <br>
 <br>
@@ -480,11 +479,15 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 
 <br>
 <br>
+
 4. La empresa de desarrollo de software AditaTech S.A. tiene 3 puntos que son la matriz en Guayaquil, las sucursales en Quito y Cuenca. La dirección de red usada en los puntos es 192.168.1.0/24. Acorde a la topología de la red proporcionada, identifique los problemas existentes detallando en qué capa del Modelo OSI ocurren estos problemas, y a la vez proponga una solución a cada problema. **(40 puntos)**
 
 <p align="center">
   <img src="../imagenes/trabajo1_actividad4_diagrama.png" alt="trabajo1" width="80%">
+
 <br>
 <br>
+
 ## Desafío
+
 5. Determinar la IP pública y privada de su dispositivo de usuario final. Se admiten imágenes en las respuestas. **(10 puntos)**
