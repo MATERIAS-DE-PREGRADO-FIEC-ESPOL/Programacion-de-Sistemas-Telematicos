@@ -6,7 +6,7 @@ plugins:
 
 [Regresar](/Programacion-de-Sistemas-Telematicos/)
 
-# Trabajo autónomo 1 División de subredes con direccionamiento IPv4
+# Trabajo Autónomo 1 División de subredes con direccionamiento IPv4
 
 ## 🎯 Objetivo de Aprendizaje
 Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para la comunicación entre diferentes redes.

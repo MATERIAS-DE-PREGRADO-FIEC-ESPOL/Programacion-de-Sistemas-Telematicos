@@ -1,27 +1,32 @@
-# TRABAJO AUTÓNOMO 2
-## APROVISIONAMIENTO DE DIRECCIONES IPv4 EN UNA RED EMPRESARIAL 
-**Objetivo de Aprendizaje:**
+---
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme
+---
+
+[Regresar](/Programacion-de-Sistemas-Telematicos/)
+
+# Trabajo Autónomo 2 Aprovisionamiento de direcciones IPv4 en una red empresarial
+
+## 🎯 Objetivo de Aprendizaje
 Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para la comunicación entre diferentes redes.
 
-**Recursos:**
-Procesador de texto, papel, lápiz
+**Recursos:** Procesador de texto, papel, lápiz
 
-**Duración:**	8 horas
+**Duración:**	8 horas.
 
-### INSTRUCCIONES
-
+**Instrucciones**
 - El formato del trabajo tiene habilitado recuadros de color amarillo para que llenen las respuestas de los ejercicios.
 - Los trabajos se reciben hasta la fecha planificada en el Aula Virtual.
 o	El ejercicio 0 será resuelto en la sesión de clase con la explicación de la docente.
 - Coloque el nombre del archivo así “PST_TAA_Apellido”, siendo A el número del trabajo.
-- Una vez que haya desarrollado el trabajo, contestará la encuesta de evaluación de los trabajos autónomos ingresando al enlace. https://forms.gle/oZnGiwGyDB1LJf5w5 
+- Una vez que haya desarrollado el trabajo, contestará la encuesta de evaluación de los trabajos autónomos ingresando al enlace https://forms.gle/oZnGiwGyDB1LJf5w5
 
-### INTRODUCCIÓN
 
+**Introducción**
 Dentro de una red es esencial que cada dispositivo posea un identificador único, es por ello que el direccionamiento es una función clave de los protocolos de capa de red. Dado que facilita la distribución y asignación de IP para cada dispositivo dentro de una subred, permitiendo la transmisión de datos entre hosts de la misma red o en redes diferentes. El Protocolo de Internet versión 4 (IPv4) ofrece direccionamiento jerárquico para paquetes que transportan datos. La correcta implementación, diseño y administración de un plan de direccionamiento IPv4 garantiza que las redes puedan operar de manera eficiente y eficaz. 
 
 En cada red IPv4 existen tres tipos de direcciones: 
-
 1.	**Dirección de red:** Es la dirección que referencia a la red o subred.
 2.	**Dirección de broadcast:** Es la dirección reservada para la transmisión de datos a todos los hosts de una red o subred. 
 3.	**Direcciones de host:** Son las direcciones IP válidas que se pueden asignar a los dispositivos que formen parte de la red.
@@ -30,7 +35,8 @@ Es importante destacar que una red según su topología y requerimientos puede d
 En el presente trabajo autónomo se proponen actividades relacionadas al aprovisionamiento de direcciones IPv4 para dispositivos de red, sistemas embebidos en una red empresarial. De manera que el estudiante pueda efectuar el cálculo de subredes a partir de topologías de red para la comunicación entre sistemas telemáticos.
 
 
-### ACTIVIDADES
+## ACTIVIDADES
+
 **Topología de la red A:** Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
@@ -40,7 +46,6 @@ En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con 
 
 **Paso 1:**	Determine la cantidad de subredes en la topología de la red A.
 
-```
 a.	¿Cuántas subredes hay? 2 subredes 
 
 b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
@@ -56,7 +61,6 @@ d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?.
 
 e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
 192.168.10.132 - 192.168.10.255
-```
 
 **Paso 2:**	Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
@@ -97,7 +101,6 @@ Complete la siguiente tabla con la información de la subred:
   </tr>
 </tbody>
 </table>
-
 
 **1.	Topología de la red B: 20 puntos**
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 172.32.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
