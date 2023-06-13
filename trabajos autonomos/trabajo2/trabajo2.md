@@ -37,14 +37,16 @@ En el presente trabajo autónomo se proponen actividades relacionadas al aprovis
 
 ## ACTIVIDADES
 
-**Topología de la red A [Resuelto]:** Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
+### **Topología de la red A [Resuelto]:**
+Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
 <p align="center">
   <img src="../imagenes/t.autonomo2_1.png" alt="trabajo1" width="90%">
 
+<br>
 Paso 1:	Determine la cantidad de subredes en la topología de la red A.
-
+<br>
 a.	¿Cuántas subredes hay? 2 subredes 
 <br>
 b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
@@ -110,7 +112,7 @@ Complete la siguiente tabla con la información de la subred:
 </tbody>
 </table>
 
-**1) Topología de la red B (20 puntos)**
+##1) Topología de la red B (20 puntos)##
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 172.32.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
 
 
@@ -196,7 +198,7 @@ Complete la siguiente tabla con la información de la subred:
 </table>
 
 
-**2) Topología de la red C (20 puntos)**
+### Topología 2 (20 puntos)**
 
 La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
 
@@ -474,7 +476,7 @@ a.	En caso que la conexión falle entre R3 y R2, ¿es posible seguir enviando in
      
 b.	En caso la conexión falle entre R2 y S2, ¿PC-C y PC-D pueden seguir comunicándose?. Argumente su respuesta.
 
-**3. Topología de la red D (30 puntos)** 
+### **Topología 3 (30 puntos)** 
 Utilice la dirección de red 192.170.0.0/16 para proporcionar las direcciones en el diagrama mostrado.
    
 
