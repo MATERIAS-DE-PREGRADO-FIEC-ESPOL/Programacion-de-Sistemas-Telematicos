@@ -27,9 +27,9 @@ o	El ejercicio 0 será resuelto en la sesión de clase con la explicación de la
 Dentro de una red es esencial que cada dispositivo posea un identificador único, es por ello que el direccionamiento es una función clave de los protocolos de capa de red. Dado que facilita la distribución y asignación de IP para cada dispositivo dentro de una subred, permitiendo la transmisión de datos entre hosts de la misma red o en redes diferentes. El Protocolo de Internet versión 4 (IPv4) ofrece direccionamiento jerárquico para paquetes que transportan datos. La correcta implementación, diseño y administración de un plan de direccionamiento IPv4 garantiza que las redes puedan operar de manera eficiente y eficaz. 
 
 En cada red IPv4 existen tres tipos de direcciones: 
-1.	**Dirección de red:** Es la dirección que referencia a la red o subred.
-2.	**Dirección de broadcast:** Es la dirección reservada para la transmisión de datos a todos los hosts de una red o subred. 
-3.	**Direcciones de host:** Son las direcciones IP válidas que se pueden asignar a los dispositivos que formen parte de la red.
+1.	Dirección de red: Es la dirección que referencia a la red o subred.
+2. Dirección de broadcast: Es la dirección reservada para la transmisión de datos a todos los hosts de una red o subred. 
+3.	Direcciones de host: Son las direcciones IP válidas que se pueden asignar a los dispositivos que formen parte de la red.
 
 Es importante destacar que una red según su topología y requerimientos puede dividirse en varias subredes, mismas que integran un único sistema. 
 En el presente trabajo autónomo se proponen actividades relacionadas al aprovisionamiento de direcciones IPv4 para dispositivos de red, sistemas embebidos en una red empresarial. De manera que el estudiante pueda efectuar el cálculo de subredes a partir de topologías de red para la comunicación entre sistemas telemáticos.
@@ -40,14 +40,13 @@ En el presente trabajo autónomo se proponen actividades relacionadas al aprovis
 **Topología de la red A [Resuelto]:** Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
-
 <p align="center">
   <img src="../imagenes/t.autonomo2_1.png" alt="trabajo1" width="90%">
 
-**Paso 1:**	Determine la cantidad de subredes en la topología de la red A.
+Paso 1:	Determine la cantidad de subredes en la topología de la red A.
 
 a.	¿Cuántas subredes hay? 2 subredes 
-
+<br>
 b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
 1 bit para la primera subred y 6 bits para la segunda subred.
 
@@ -55,19 +54,23 @@ b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes reque
 
 11111111.11111111.11111111.11111100 = 2<sup>6</sup>=64 subredes, 2<sup>2</sup>=4-2=2 hosts
 
+<br>
 c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
 
 2<sup>7</sup>=128-2=126 hosts, 22=4-2=2 hosts
 
+<br>
 d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
 
  255.255.255.128 - 255.255.255.252
 
+<br>
 e.	¿Cuántas subredes quedan disponibles para usar en el futuro?
 
 192.168.10.132 - 192.168.10.255
 
-**Paso 2:**	Registre la información de subred.
+
+Paso 2:	Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
 
 <style type="text/css">
@@ -107,14 +110,14 @@ Complete la siguiente tabla con la información de la subred:
 </tbody>
 </table>
 
-**1. Topología de la red B (20 puntos)**
+**1) Topología de la red B (20 puntos)**
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 172.32.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
 
 
 <p align="center">
   <img src="../imagenes/t.autonomo2_2.png" alt="trabajo1" width="90%">
 
-**Paso 1:** Determine la cantidad de subredes en la topología de la red B.
+Paso 1: Determine la cantidad de subredes en la topología de la red B.
 
 a.	¿ Cuántas subredes existen y a qué tipo de clase pertenecen cada una?
      
@@ -131,7 +134,7 @@ d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
 e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
      
 
-**Paso 2:** Registre la información de subred.
+Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
 
 <style type="text/css">
@@ -193,9 +196,7 @@ Complete la siguiente tabla con la información de la subred:
 </table>
 
 
-
-
-**1. Topología de la red C (20 puntos)**
+**2) Topología de la red C (20 puntos)**
 
 La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
 
@@ -205,22 +206,21 @@ La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace red
 **Paso 1:** Determine la cantidad de subredes en la topología de la red C.
 
 
-a.	¿Cuántas subredes existen y a qué tipo de clase pertenecen cada una?.
+- a.	¿Cuántas subredes existen y a qué tipo de clase pertenecen cada una?.
      
 
-b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas?.
+- b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas?.
 
       
-c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?.
+- c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?.
 
      
-d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?. 
+- d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?. 
      
 
-e.	¿Cuántas subredes quedan disponibles para usar en el futuro?. 
+- e.	¿Cuántas subredes quedan disponibles para usar en el futuro?. 
 
-
-     
+ 
 **Paso 2:** Registre la información de subred.
 
 <style type="text/css">
