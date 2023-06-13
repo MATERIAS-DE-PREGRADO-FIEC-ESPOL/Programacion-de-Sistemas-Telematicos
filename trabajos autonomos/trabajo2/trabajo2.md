@@ -44,30 +44,28 @@ En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con 
 <p align="center">
   <img src="../imagenes/t.autonomo2_1.png" alt="trabajo1" width="90%">
 
-<br>
+
 Paso 1:	Determine la cantidad de subredes en la topología de la red A.
-<br>
-a.	¿Cuántas subredes hay? 2 subredes 
-<br>
-b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
+
+- a.	¿Cuántas subredes hay? 2 subredes 
+
+- b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
 1 bit para la primera subred y 6 bits para la segunda subred.
 
 11111111.11111111.11111111.10000000 = 2<sup>1</sup>=2 subredes, 2<sup>7</sup>=128-2=126 hosts
 
 11111111.11111111.11111111.11111100 = 2<sup>6</sup>=64 subredes, 2<sup>2</sup>=4-2=2 hosts
 
-<br>
-c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
+- c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
 
 2<sup>7</sup>=128-2=126 hosts, 22=4-2=2 hosts
 
-<br>
-d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
+
+- d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
 
  255.255.255.128 - 255.255.255.252
 
-<br>
-e.	¿Cuántas subredes quedan disponibles para usar en el futuro?
+- e.	¿Cuántas subredes quedan disponibles para usar en el futuro?
 
 192.168.10.132 - 192.168.10.255
 
@@ -121,19 +119,19 @@ La topología de la red de la parte 1 se expandió para admitir el agregado del 
 
 Paso 1: Determine la cantidad de subredes en la topología de la red B.
 
-a.	¿ Cuántas subredes existen y a qué tipo de clase pertenecen cada una?
+- a.	¿ Cuántas subredes existen y a qué tipo de clase pertenecen cada una?
      
 
-b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
+- b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
      
 
-c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento? 
+- c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento? 
      
 
-d.	¿Cuál es la máscara de subred nueva en formato decimal punteado? 
+- d.	¿Cuál es la máscara de subred nueva en formato decimal punteado? 
      
 
-e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
+- e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
      
 
 Paso 2: Registre la información de subred.
@@ -198,7 +196,7 @@ Complete la siguiente tabla con la información de la subred:
 </table>
 
 
-### Topología 2 (20 puntos)**
+### **Topología 2 (20 puntos)**
 
 La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
 
@@ -470,11 +468,11 @@ b.	Complete la tabla siguiente con las direcciones IP y las máscaras de subred 
 First row is a table header 
 
 
-**Paso 4: Análisis**
+Paso 4: Análisis
 
-a.	En caso que la conexión falle entre R3 y R2, ¿es posible seguir enviando información?. Argumente su respuesta.
+- a.	En caso que la conexión falle entre R3 y R2, ¿es posible seguir enviando información?. Argumente su respuesta.
      
-b.	En caso la conexión falle entre R2 y S2, ¿PC-C y PC-D pueden seguir comunicándose?. Argumente su respuesta.
+- b.	En caso la conexión falle entre R2 y S2, ¿PC-C y PC-D pueden seguir comunicándose?. Argumente su respuesta.
 
 ### **Topología 3 (30 puntos)** 
 Utilice la dirección de red 192.170.0.0/16 para proporcionar las direcciones en el diagrama mostrado.
@@ -500,7 +498,7 @@ d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
 e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
      
 
-**Paso 2:** Registre la información de subred.
+Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred.
 
 <style type="text/css">
@@ -622,7 +620,7 @@ d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
 e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
      
 
-**Paso 2: Registre la información de subred.**
+Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
 
 <style type="text/css">
@@ -712,7 +710,7 @@ Complete la siguiente tabla con la información de la subred:
 </tbody>
 </table>
 
-**Paso 3:** Asignar direcciones a los dispositivos de red en las subredes
+Paso 3: Asignar direcciones a los dispositivos de red en las subredes
 a.	Complete la siguiente tabla con las direcciones IP y las máscaras de subred para las interfaces del router:
 
 <style type="text/css">
