@@ -42,29 +42,32 @@ Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
 <p align="center">
-  <img src="../imagenes/t.autonomo2_1.png" alt="trabajo1" width="90%">
+  <img src="../imagenes/t.autonomo2_1.png" alt="trabajo1" width="70%">
 
 
 Paso 1:	Determine la cantidad de subredes en la topología de la red A.
+<br>
+a.	¿Cuántas subredes hay? 2 subredes 
 
-- a.	¿Cuántas subredes hay? 2 subredes 
-
-- b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
+<br>
+b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
 1 bit para la primera subred y 6 bits para la segunda subred.
 
 11111111.11111111.11111111.10000000 = 2<sup>1</sup>=2 subredes, 2<sup>7</sup>=128-2=126 hosts
 
 11111111.11111111.11111111.11111100 = 2<sup>6</sup>=64 subredes, 2<sup>2</sup>=4-2=2 hosts
 
-- c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
+<br>
+c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
 
 2<sup>7</sup>=128-2=126 hosts, 22=4-2=2 hosts
 
-
-- d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
+<br>
+d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
 
  255.255.255.128 - 255.255.255.252
 
+<br>
 - e.	¿Cuántas subredes quedan disponibles para usar en el futuro?
 
 192.168.10.132 - 192.168.10.255
