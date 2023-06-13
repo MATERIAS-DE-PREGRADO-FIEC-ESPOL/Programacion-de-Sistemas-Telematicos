@@ -37,7 +37,7 @@ En el presente trabajo autónomo se proponen actividades relacionadas al aprovis
 
 ## ACTIVIDADES
 
-**Topología de la red A:** Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
+**Topología de la red A [Resuelto]:** Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
 
@@ -50,16 +50,21 @@ a.	¿Cuántas subredes hay? 2 subredes
 
 b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
 1 bit para la primera subred y 6 bits para la segunda subred.
-11111111.11111111.11111111.10000000 = 21=2 subredes, 27=128-2=126 hosts
-11111111.11111111.11111111.11111100 = 26=64 subredes, 22=4-2=2 hosts
 
-c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento? 
-27=128-2=126 hosts, 22=4-2=2 hosts
+11111111.11111111.11111111.10000000 = 2<sup>1</sup>=2 subredes, 2<sup>7</sup>=128-2=126 hosts
 
-d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?.
- 255.255.255.128 - 255.255.255.252.
+11111111.11111111.11111111.11111100 = 2<sup>6</sup>=64 subredes, 2<sup>2</sup>=4-2=2 hosts
 
-e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
+c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
+
+2<sup>7</sup>=128-2=126 hosts, 22=4-2=2 hosts
+
+d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
+
+ 255.255.255.128 - 255.255.255.252
+
+e.	¿Cuántas subredes quedan disponibles para usar en el futuro?
+
 192.168.10.132 - 192.168.10.255
 
 **Paso 2:**	Registre la información de subred.
@@ -102,7 +107,7 @@ Complete la siguiente tabla con la información de la subred:
 </tbody>
 </table>
 
-**1.	Topología de la red B: 20 puntos**
+**1. Topología de la red B (20 puntos)**
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 172.32.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
 
 
@@ -190,9 +195,9 @@ Complete la siguiente tabla con la información de la subred:
 
 
 
-### 2.	Topología de la red C: **20 puntos**
+**1. Topología de la red C (20 puntos)**
 
-La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 172.68.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
+La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
 
 <p align="center">
   <img src="../imagenes/t.autonomo2_3.png" alt="trabajo1" width="80%">
@@ -463,13 +468,13 @@ b.	Complete la tabla siguiente con las direcciones IP y las máscaras de subred 
 First row is a table header 
 
 
-**Paso 4:** Análisis.
+**Paso 4: Análisis**
 
 a.	En caso que la conexión falle entre R3 y R2, ¿es posible seguir enviando información?. Argumente su respuesta.
      
 b.	En caso la conexión falle entre R2 y S2, ¿PC-C y PC-D pueden seguir comunicándose?. Argumente su respuesta.
 
-3.	**Topología de la red D:** 30 puntos
+**3. Topología de la red D (30 puntos)** 
 Utilice la dirección de red 192.170.0.0/16 para proporcionar las direcciones en el diagrama mostrado.
    
 
@@ -583,15 +588,14 @@ Complete la siguiente tabla con la información de la subred.
 </tbody>
 </table>
 
-**Paso 3:** Análisis.
+**Paso 3: Análisis**
 
 a.	¿Qué beneficios conlleva que R4 esté en la topología de red?
-      
 
 b.	La organización ha detectado que existen problemas en la red interna. El Departamento Técnico ha descubierto que los problemas se deben a que los paquetes se duplican. Además, de que el tráfico de datos se encuentra congestionado. Usted como Ingeniero en mecatrónica de la organización, habiendo aprendido la matería de Programación de Sistemas Telemáticos, le piden que emita un informe técnico en base a estos inconvenientes. ¿Cuál es el inconveniente presentado en este caso?. 
 
 
-4.	**Topología de la red E:** 30 puntos
+**4.	Topología de la red E (30 puntos)**
 La organización tiene una dirección de red 192.37.0.0/16 que se dividirá como se ilustra en la topología siguiente. Debe elegir un esquema de direccionamiento que pueda admitir la cantidad de redes y hosts en la topología.
 
 
@@ -616,7 +620,7 @@ d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
 e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
      
 
-**Paso 2:** Registre la información de subred.
+**Paso 2: Registre la información de subred.**
 Complete la siguiente tabla con la información de la subred:
 
 <style type="text/css">
@@ -817,7 +821,6 @@ a.	La organización quiere hacer un inventario para reconocer las computadoras d
      
 
 **Reflexiones**
-
 1.	¿Qué información es necesaria para determinar un esquema de direccionamiento adecuado en una red?
      
 
