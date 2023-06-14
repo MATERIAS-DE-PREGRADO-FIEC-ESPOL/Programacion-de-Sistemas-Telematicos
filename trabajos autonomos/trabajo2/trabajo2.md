@@ -384,92 +384,97 @@ e.	¿Cuántas subredes quedan disponibles para usar en el futuro?
 Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred.
 
+<br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
 .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-merh{border-color:#3166ff;font-weight:bold;text-align:center;vertical-align:bottom}
-.tg .tg-bhg3{border-color:#3166ff;color:#ffffff;font-size:16px;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-rbd8{border-color:#3166ff;text-align:center;vertical-align:bottom}
+.tg .tg-l2bd{background-color:#EBF5FF;border-color:#000000;color:#666;text-align:center;vertical-align:top}
+.tg .tg-jh6t{background-color:#EBF5FF;border-color:#000000;color:#444;text-align:left;vertical-align:top}
+.tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:top}
+.tg .tg-89b6{background-color:#409CFF;border-color:#000000;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-asw9{background-color:#EBF5FF;border-color:#000000;color:#444;text-align:center;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-bhg3">   <br>Número de<br> subred   </th>
-    <th class="tg-bhg3">   <br>Dirección de <br>subred   </th>
-    <th class="tg-bhg3">   <br>Primera dirección <br>de host utilizable   </th>
-    <th class="tg-bhg3">   <br>Última dirección <br>de host utilizable   </th>
-    <th class="tg-bhg3">   <br>Dirección de <br>broadcast   </th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Número de subred</span></th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Dirección de subred</span></th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Primera dirección de host utilizable</span></th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Última dirección de host utilizable</span></th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Dirección de broadcast</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-l2bd"><span style="font-weight:300;color:#000;background-color:#EBF5FF">1</span></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">2</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-l2bd"><span style="font-weight:300;color:#000;background-color:#EBF5FF">2</span></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">3</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-asw9"><span style="font-weight:300;color:#444;background-color:#EBF5FF">3</span></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">4</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-asw9"><span style="font-weight:300;color:#444;background-color:#EBF5FF">4</span></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">5</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-asw9"><span style="font-weight:300;color:#444;background-color:#EBF5FF">5</span></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">6</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">6</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">7</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">7</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">8</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">8</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">9</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">9</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
 </tbody>
 </table>
+<br>
 
 Paso 3: Análisis
 
@@ -506,92 +511,97 @@ e.	¿Cuántas subredes quedan disponibles para usar en el futuro?
 Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
 
+<br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
 .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-merh{border-color:#3166ff;font-weight:bold;text-align:center;vertical-align:bottom}
-.tg .tg-bhg3{border-color:#3166ff;color:#ffffff;font-size:16px;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-rbd8{border-color:#3166ff;text-align:center;vertical-align:bottom}
+.tg .tg-l2bd{background-color:#EBF5FF;border-color:#000000;color:#666;text-align:center;vertical-align:top}
+.tg .tg-jh6t{background-color:#EBF5FF;border-color:#000000;color:#444;text-align:left;vertical-align:top}
+.tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:top}
+.tg .tg-89b6{background-color:#409CFF;border-color:#000000;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-asw9{background-color:#EBF5FF;border-color:#000000;color:#444;text-align:center;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-bhg3">   <br>Número de<br> subred   </th>
-    <th class="tg-bhg3">   <br>Dirección de <br>subred   </th>
-    <th class="tg-bhg3">   <br>Primera dirección <br>de host utilizable   </th>
-    <th class="tg-bhg3">   <br>Última dirección <br>de host utilizable   </th>
-    <th class="tg-bhg3">   <br>Dirección de <br>broadcast   </th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Número de subred</span></th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Dirección de subred</span></th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Primera dirección de host utilizable</span></th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Última dirección de host utilizable</span></th>
+    <th class="tg-89b6"><span style="font-weight:bold;color:#FFF;background-color:#409CFF">Dirección de broadcast</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-l2bd"><span style="font-weight:300;color:#000;background-color:#EBF5FF">1</span></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">2</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-l2bd"><span style="font-weight:300;color:#000;background-color:#EBF5FF">2</span></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
+    <td class="tg-l2bd"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">3</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-asw9"><span style="font-weight:300;color:#444;background-color:#EBF5FF">3</span></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">4</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-asw9"><span style="font-weight:300;color:#444;background-color:#EBF5FF">4</span></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">5</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-asw9"><span style="font-weight:300;color:#444;background-color:#EBF5FF">5</span></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-jh6t"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">6</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">6</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">7</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">7</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">8</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">8</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black">9</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-merh">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">9</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
 </tbody>
 </table>
+<br>
 
 Paso 3: Asignar direcciones a los dispositivos de red en las subredes
 a.	Complete la siguiente tabla con las direcciones IP y las máscaras de subred para las interfaces del router:
