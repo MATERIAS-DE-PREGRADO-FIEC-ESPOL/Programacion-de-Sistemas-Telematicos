@@ -54,11 +54,11 @@ a)	¿Cuántas subredes hay? 2 subredes
 
 b)	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
 1 bit para la primera subred y 6 bits para la segunda subred.
-
+<br>
 11111111.11111111.11111111.10000000 = 2<sup>1</sup>=2 subredes, 2<sup>7</sup>=128-2=126 hosts
 
 11111111.11111111.11111111.11111100 = 2<sup>6</sup>=64 subredes, 2<sup>2</sup>=4-2=2 hosts
-
+<br>
 c)	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
 
 2<sup>7</sup>=128-2=126 hosts, 22=4-2=2 hosts
