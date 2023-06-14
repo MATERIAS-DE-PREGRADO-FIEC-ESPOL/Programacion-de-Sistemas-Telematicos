@@ -48,7 +48,7 @@ En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con 
 <br>
 <br>
 
-Paso 1:	Determine la cantidad de subredes en la topología de la red A.
+#### Paso 1:	Determine la cantidad de subredes en la topología de la red A.
 
 - ¿Cuántas subredes hay? 
 2 subredes 
