@@ -29,9 +29,9 @@ o	El ejercicio 0 será resuelto en la sesión de clase con la explicación de la
 Dentro de una red es esencial que cada dispositivo posea un identificador único, es por ello que el direccionamiento es una función clave de los protocolos de capa de red. Dado que facilita la distribución y asignación de IP para cada dispositivo dentro de una subred, permitiendo la transmisión de datos entre hosts de la misma red o en redes diferentes. El Protocolo de Internet versión 4 (IPv4) ofrece direccionamiento jerárquico para paquetes que transportan datos. La correcta implementación, diseño y administración de un plan de direccionamiento IPv4 garantiza que las redes puedan operar de manera eficiente y eficaz. 
 
 En cada red IPv4 existen tres tipos de direcciones: 
-1.	Dirección de red: Es la dirección que referencia a la red o subred.
-2. Dirección de broadcast: Es la dirección reservada para la transmisión de datos a todos los hosts de una red o subred. 
-3.	Direcciones de host: Son las direcciones IP válidas que se pueden asignar a los dispositivos que formen parte de la red.
+- Dirección de red: Es la dirección que referencia a la red o subred.
+- Dirección de broadcast: Es la dirección reservada para la transmisión de datos a todos los hosts de una red o subred. 
+-	Direcciones de host: Son las direcciones IP válidas que se pueden asignar a los dispositivos que formen parte de la red.
 
 Es importante destacar que una red según su topología y requerimientos puede dividirse en varias subredes, mismas que integran un único sistema. 
 En el presente trabajo autónomo se proponen actividades relacionadas al aprovisionamiento de direcciones IPv4 para dispositivos de red, sistemas embebidos en una red empresarial. De manera que el estudiante pueda efectuar el cálculo de subredes a partir de topologías de red para la comunicación entre sistemas telemáticos.
@@ -50,68 +50,69 @@ En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con 
 
 Paso 1:	Determine la cantidad de subredes en la topología de la red A.
 
-a)	¿Cuántas subredes hay? 2 subredes 
+- ¿Cuántas subredes hay? 
+2 subredes 
 
-b)	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
-1 bit para la primera subred y 6 bits para la segunda subred.
-<br>
-11111111.11111111.11111111.10000000 = 2<sup>1</sup>=2 subredes, 2<sup>7</sup>=128-2=126 hosts
+- ¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas?
 
-11111111.11111111.11111111.11111100 = 2<sup>6</sup>=64 subredes, 2<sup>2</sup>=4-2=2 hosts
-<br>
-c)	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
+  1 bit para la primera subred y 6 bits para la segunda subred.
 
-2<sup>7</sup>=128-2=126 hosts, 22=4-2=2 hosts
+  <br>
+  11111111.11111111.11111111.10000000 = 2<sup>1</sup>=2 subredes, 2<sup>7</sup>=128-2=126 hosts
 
-d)	¿Cuál es la máscara de subred nueva en formato decimal punteado?
+  11111111.11111111.11111111.11111100 = 2<sup>6</sup>=64 subredes, 2<sup>2</sup>=4-2=2 hosts
+  <br>
 
-255.255.255.128 - 255.255.255.252
+-	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?
+  2<sup>7</sup>=128-2=126 hosts, 22=4-2=2 hosts
 
-e)	¿Cuántas subredes quedan disponibles para usar en el futuro?
+-	¿Cuál es la máscara de subred nueva en formato decimal punteado?
+  255.255.255.128 - 255.255.255.252
 
-192.168.10.132 - 192.168.10.255
+-	¿Cuántas subredes quedan disponibles para usar en el futuro?
+  192.168.10.132 - 192.168.10.255
 
 
 Paso 2:	Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
+
 <br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
 .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 0px;word-break:normal;}
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:0px 0px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-72fj{border-color:inherit;font-size:16px;font-weight:bold;text-align:center;vertical-align:middle}
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-1zis{border-color:#000000;color:#000000;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-72fj">  Número de <br>subred   </th>
-    <th class="tg-72fj">   <br>Dirección de <br>subred   <br></th>
-    <th class="tg-72fj"><br>Primera dirección <br>de host utilizable   <br></th>
-    <th class="tg-72fj">   Última dirección de <br>host utilizable   </th>
-    <th class="tg-72fj">   Dirección de <br>broadcast   </th>
+    <th class="tg-mqa1">Número de subred</th>
+    <th class="tg-mqa1">Dirección de subred</th>
+    <th class="tg-mqa1">Primera dirección de host utilizable</th>
+    <th class="tg-mqa1">Última dirección de host utilizable</th>
+    <th class="tg-mqa1">Dirección de broadcast</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">192.168.10.0</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">192.168.10.1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">192.168.10.126</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">192.168.10.127</span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-1zis">1</td>
+    <td class="tg-1zis">192.168.10.0</td>
+    <td class="tg-1zis"><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent">192.168.10.1</span></td>
+    <td class="tg-1zis"><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent">192.168.10.126</span></td>
+    <td class="tg-1zis"><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent">192.168.10.127</span></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">2</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">192.168.10.128</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">192.168.10.129</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">192.168.10.130</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:red">192.168.10.131</span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-1zis">2</td>
+    <td class="tg-1zis"><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent">192.168.10.128</span></td>
+    <td class="tg-1zis"><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent">192.168.10.129</span></td>
+    <td class="tg-1zis"><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent">192.168.10.130</span></td>
+    <td class="tg-1zis"><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent">192.168.10.131</span></td>
   </tr>
 </tbody>
 </table>
-<br>
 <br>
 
 ### **Topología de la red B (20 puntos)** 
