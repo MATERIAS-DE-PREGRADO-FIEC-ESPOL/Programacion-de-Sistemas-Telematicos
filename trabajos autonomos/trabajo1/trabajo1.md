@@ -134,6 +134,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 
 <br>
 <br>
+<br>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
@@ -158,7 +159,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </thead>
 <tbody>
   <tr>
-    <td class="tg-mcqj">Número de segmentos físicos:</span></td>
+    <td class="tg-mcqj">Número de segmentos físicos:</td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">28</span></td>
   </tr>
   <tr>
@@ -214,7 +215,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </thead>
 <tbody>
   <tr>
-   <td class="tg-mcqj">Número de segmentos físicos:</span></td>
+   <td class="tg-mcqj">Número de segmentos físicos:</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">30</span></td>
   </tr>
   <tr>
@@ -269,7 +270,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </thead>
 <tbody>
   <tr>
-    <td class="tg-mcqj">Número de segmentos físicos:</span></td>
+    <td class="tg-mcqj">Número de segmentos físicos:</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">58</span></td>
   </tr>
   <tr>
@@ -324,7 +325,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </thead>
 <tbody>
   <tr>
-    <td class="tg-mcqj">Número de segmentos físicos:</span></td>
+    <td class="tg-mcqj">Número de segmentos físicos:</td>
     <td class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">140</span></td>
   </tr>
   <tr>
@@ -379,7 +380,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </thead>
 <tbody>
   <tr>
-    <td class="tg-mcqj">Número de segmentos físicos:</span></td>
+    <td class="tg-mcqj">Número de segmentos físicos:</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3</span></td>
     <td class="tg-0lax"></td>
   </tr>
