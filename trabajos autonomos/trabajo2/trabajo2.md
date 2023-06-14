@@ -44,7 +44,7 @@ Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
 <p align="center">
-  <img src="../imagenes/t.autonomo2_1.png" alt="trabajo1" width="70%">
+  <img src="../imagenes/trabajo2_topologia0_resuelta.png" alt="trabajo1" width="90%">
 <br>
 <br>
 
@@ -118,9 +118,8 @@ Complete la siguiente tabla con la información de la subred:
 ### **Topología de la red B (20 puntos)** 
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
 
-
 <p align="center">
-  <img src="../imagenes/trabajo2_topologia0_resuelta.png" alt="trabajo1" width="90%">
+  <img src="../imagenes/trabajo2_topologia_red_b.png" alt="trabajo1" width="90%">
 <br>
 <br>
 
@@ -146,64 +145,7 @@ Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
 
 <br>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
-.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 0px;word-break:normal;}
-.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:0px 0px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-qiwj{border-color:inherit;color:#ffffff;font-size:16px;font-weight:bold;text-align:center;vertical-align:middle}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-qiwj">   <br>Número de<br> subred   </th>
-    <th class="tg-qiwj">   <br>Dirección de<br> subred   </th>
-    <th class="tg-qiwj">   <br>Primera dirección<br>de host utilizable   </th>
-    <th class="tg-qiwj">   <br>Última dirección <br>de host utilizable   </th>
-    <th class="tg-qiwj">   <br>Dirección de<br> broadcast   </th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black">1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black">2</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black">3</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black">4</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black">5</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-c3ow">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-</tbody>
-</table>
-
+<table style="border-collapse:collapse;border-color:#9ABAD9;border-spacing:0" class="tg"><thead><tr><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Número de subred</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Dirección de subred</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Primera dirección de host utilizable</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Última dirección de host utilizable</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Dirección de broadcast</th></tr></thead><tbody><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">1</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">2</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">3</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">4</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">5</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr></tbody></table>
 <br>
 <br>
 
@@ -213,7 +155,7 @@ La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace red
 
 <br>
 <p align="center">
-  <img src="../imagenes/t.autonomo2_3.png" alt="trabajo1" width="80%">
+  <img src="../imagenes/trabajo2_topologia_red_c.png" alt="trabajo1" width="80%">
 
 **Paso 1:** Determine la cantidad de subredes en la topología de la red C.
 
@@ -235,158 +177,87 @@ La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace red
  
 Paso 2: Registre la información de subred.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
-.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-pb0m{border-color:inherit;text-align:center;vertical-align:bottom}
-.tg .tg-23jf{border-color:inherit;color:#ffffff;font-size:16px;font-weight:bold;text-align:left;vertical-align:bottom}
-.tg .tg-8d8j{text-align:center;vertical-align:bottom}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-23jf">Número de <br>subred   </th>
-    <th class="tg-23jf">Dirección de <br>subred   </th>
-    <th class="tg-23jf">   <br>Primera dirección <br>de host utilizable   </th>
-    <th class="tg-23jf">   <br>Última dirección <br>de host utilizable   </th>
-    <th class="tg-23jf">   <br>Dirección de <br>broadcast   </th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black">1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black">2</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black">3</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black">4</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black">5</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-pb0m">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-8d8j">&nbsp;&nbsp;&nbsp;<br><span style="color:black">6</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-8d8j">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-8d8j">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-8d8j">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-8d8j">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-</tbody>
-</table>
+<br>
+<table style="border-collapse:collapse;border-color:#9ABAD9;border-spacing:0" class="tg"><thead><tr><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Número de subred</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Dirección de subred</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Primera dirección de host utilizable</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Última dirección de host utilizable</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Dirección de broadcast</th></tr></thead><tbody><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">1</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">2</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">3</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">4</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">5</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">6</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr></tbody></table>
+<br>
 
 Paso 3: Asignar direcciones a los dispositivos de red en las subredes.
 
 a) Complete la siguiente tabla con las direcciones IP y las máscaras de subred para las interfaces del router:
 
+<br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
 .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-bhg3{border-color:#3166ff;color:#ffffff;font-size:16px;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-rbd8{border-color:#3166ff;text-align:center;vertical-align:bottom}
-.tg .tg-s4wa{border-color:#3166ff;text-align:center;vertical-align:middle}
-.tg .tg-bidy{border-color:#3166ff;text-align:center;vertical-align:top}
+.tg .tg-rkqj{border-color:#000000;color:#ffffff;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-xwyw{border-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-0a7q{border-color:#000000;text-align:left;vertical-align:middle}
+.tg .tg-kvxc{border-color:#000000;text-align:left;vertical-align:bottom}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-bhg3">   <br>Dispositivo   </th>
-    <th class="tg-bhg3">   <br>Interfaz   </th>
-    <th class="tg-bhg3">   <br>Dirección IP   </th>
-    <th class="tg-bhg3">   <br>Máscara de <br>subred   </th>
-    <th class="tg-bhg3">   <br>Dirección de <br>broadcast   </th>
+    <th class="tg-rkqj">Dispositivo</th>
+    <th class="tg-rkqj">Interfaz</th>
+    <th class="tg-rkqj">Dirección IP</th>
+    <th class="tg-rkqj">Máscara de subred</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-s4wa" rowspan="3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">R1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">GigabitEthernet 0/1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-xwyw" rowspan="3">  <span style="color:black">R1</span></td>
+    <td class="tg-0a7q"><span style="color:black">GigabitEthernet 0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Serial 0/0/0</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-0a7q"><span style="color:black">Serial 0/0/0</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Serial 0/0/1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-0a7q"><span style="color:black">Serial 0/0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-s4wa" rowspan="3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">R2</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">GigabitEthernet 0/1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-xwyw" rowspan="3"><span style="color:black">R2</span></td>
+    <td class="tg-0a7q"><span style="color:black">GigabitEthernet 0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Serial 0/0/0</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-0a7q"><span style="color:black">Serial 0/0/0</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Serial 0/0/1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-0a7q"><span style="color:black">Serial 0/0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-s4wa" rowspan="3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">R3</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">GigabitEthernet 0/1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-bidy"></td>
+    <td class="tg-xwyw" rowspan="3"><span style="color:black">R3</span></td>
+    <td class="tg-0a7q"><span style="color:black">GigabitEthernet 0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Serial 0/0/0</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-bidy"></td>
+    <td class="tg-0a7q"><span style="color:black">Serial 0/0/0</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Serial 0/0/1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-bidy"></td>
+    <td class="tg-0a7q"><span style="color:black">Serial 0/0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
 </tbody>
 </table>
-
+<br>
 
 b.	Complete la tabla siguiente con las direcciones IP y las máscaras de subred para los dispositivos en la LAN, como se muestra en la topología.
 
@@ -491,7 +362,7 @@ Paso 4: Análisis
 Utilice la dirección de red 192.170.0.0/16 para proporcionar las direcciones en el diagrama mostrado.
    
 <p align="center">
-  <img src="../imagenes/t.autonomo2_2.png" alt="trabajo1" width="80%">
+  <img src="../imagenes/trabajo2_topologia_red_d.png" alt="trabajo1" width="80%">
 
 Paso 1: Determine la cantidad de subredes en la topología de la red D.
 
@@ -612,7 +483,7 @@ La organización tiene una dirección de red 192.37.0.0/16 que se dividirá como
 
 
 <p align="center">
-  <img src="../imagenes/t.autonomo2_5.png" alt="trabajo1" width="80%">
+  <img src="../imagenes/trabajo2_topologia_red_e.png" alt="trabajo1" width="80%">
 
 
 Paso 1: Determine la cantidad de subredes en la topología de la red E.
