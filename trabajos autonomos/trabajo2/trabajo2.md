@@ -120,25 +120,31 @@ La topología de la red de la parte 1 se expandió para admitir el agregado del 
 
 
 <p align="center">
-  <img src="../imagenes/t.autonomo2_2.png" alt="trabajo1" width="90%">
+  <img src="../imagenes/trabajo2_topologia0_resuelta.png" alt="trabajo1" width="90%">
 <br>
 <br>
 
 Paso 1: Determine la cantidad de subredes en la topología de la red B.
 
-a)	¿ Cuántas subredes existen y a qué tipo de clase pertenecen cada una?
+a)	¿Cuántas subredes existen y a qué tipo de clase pertenecen cada una?.
+
      
-b)	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
+b)	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas?.
+
+
+c)	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?.
+
      
-c)	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento? 
+d)	¿Cuál es la máscara de subred nueva en formato decimal punteado?.
+
      
-d)	¿Cuál es la máscara de subred nueva en formato decimal punteado? 
+e)	¿Cuántas subredes quedan disponibles para usar en el futuro?.
      
-e)	¿Cuántas subredes quedan disponibles para usar en el futuro? 
-     
+<br>
 
 Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
+
 <br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
@@ -197,12 +203,15 @@ Complete la siguiente tabla con la información de la subred:
   </tr>
 </tbody>
 </table>
+
+<br>
 <br>
 
 ### **Topología de la red C (20 puntos)**
 
 La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
 
+<br>
 <p align="center">
   <img src="../imagenes/t.autonomo2_3.png" alt="trabajo1" width="80%">
 
