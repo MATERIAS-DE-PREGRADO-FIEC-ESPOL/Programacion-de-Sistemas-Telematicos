@@ -45,9 +45,9 @@ En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con 
 
 <p align="center">
   <img src="../imagenes/t.autonomo2_1.png" alt="trabajo1" width="70%">
+<br>
+<br>
 
-<br>
-<br>
 Paso 1:	Determine la cantidad de subredes en la topología de la red A.
 
 a)	¿Cuántas subredes hay? 2 subredes 
@@ -120,6 +120,8 @@ La topología de la red de la parte 1 se expandió para admitir el agregado del 
 
 <p align="center">
   <img src="../imagenes/t.autonomo2_2.png" alt="trabajo1" width="90%">
+<br>
+<br>
 
 Paso 1: Determine la cantidad de subredes en la topología de la red B.
 
