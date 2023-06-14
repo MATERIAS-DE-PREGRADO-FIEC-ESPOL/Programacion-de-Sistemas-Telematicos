@@ -261,95 +261,96 @@ a) Complete la siguiente tabla con las direcciones IP y las máscaras de subred 
 
 b.	Complete la tabla siguiente con las direcciones IP y las máscaras de subred para los dispositivos en la LAN, como se muestra en la topología.
 
-
+<br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
 .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-70h3{border-color:#3166ff;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-bhg3{border-color:#3166ff;color:#ffffff;font-size:16px;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-s4wa{border-color:#3166ff;text-align:center;vertical-align:middle}
+.tg .tg-rkqj{border-color:#000000;color:#ffffff;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:top}
+.tg .tg-ljam{border-color:#000000;text-align:center;vertical-align:bottom}
+.tg .tg-kvxc{border-color:#000000;text-align:left;vertical-align:bottom}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-bhg3">   <br>Dispositivo   </th>
-    <th class="tg-bhg3">   <br>Interfaz   </th>
-    <th class="tg-bhg3">   <br>Dirección IP   </th>
-    <th class="tg-bhg3">   <br>Máscara de<br>subred   </th>
-    <th class="tg-bhg3">   <br>Gateway<br> predeterminado   </th>
+    <th class="tg-rkqj">Dispositivo</th>
+    <th class="tg-rkqj">Interfaz</th>
+    <th class="tg-rkqj">Dirección IP</th>
+    <th class="tg-rkqj">Máscara de subred</th>
+    <th class="tg-rkqj">Gateway predeterminado</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">PC-A</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">NIC</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-ljam"><span style="color:black">PC-A</span></td>
+    <td class="tg-ljam">Gi0/0</td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc">   </td>
   </tr>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">PC-B</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">NIC</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-ljam"><span style="color:black">PC-B</span></td>
+    <td class="tg-wp8o">Gi0/0</td>
+    <td class="tg-wp8o"></td>
+    <td class="tg-kvxc">  </td>
+    <td class="tg-kvxc">   </td>
   </tr>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">S1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">VLAN 1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-ljam"><span style="color:black">PC-C</span></td>
+    <td class="tg-wp8o">Gi0/0</td>
+    <td class="tg-kvxc">  </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"> </td>
   </tr>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">PC-C</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">NIC</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-ljam"><span style="color:black">PC-D</span></td>
+    <td class="tg-wp8o">Gi0/0</td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">PC-D</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">NIC</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-ljam"><span style="color:black">PC-E</span></td>
+    <td class="tg-wp8o">Gi0/0</td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">S2</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">VLAN 1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-ljam"><span style="color:black">PC-F</span></td>
+    <td class="tg-wp8o">Gi0/0</td>
+    <td class="tg-kvxc"> </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">PC-E</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">NIC</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">Sensor1</td>
+    <td class="tg-wp8o">Gi0/0</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">PC-F</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">NIC</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">Sensor2</td>
+    <td class="tg-wp8o">Gi0/0</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">S3</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-70h3">&nbsp;&nbsp;&nbsp;<br><span style="color:black">VLAN 1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-s4wa">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-wp8o">Sensor3</td>
+    <td class="tg-wp8o">Gi0/0</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
 </tbody>
 </table>
-First row is a table header 
-
+<br>
 
 Paso 4: Análisis
 
