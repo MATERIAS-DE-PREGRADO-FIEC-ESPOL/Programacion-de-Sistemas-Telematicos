@@ -188,6 +188,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
 </table>
 
 <br>
+<br>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
@@ -294,7 +295,6 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
     <td class="tg-mqa1">Subred</td>
     <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
-</tbody>
 </table>
 
 <br>
