@@ -16,6 +16,7 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 **Duración:**	8 horas.
 
 **Instrucciones**
+
 - El formato del trabajo tiene habilitado recuadros de color amarillo para que llenen las respuestas de los ejercicios.
 - Los trabajos se reciben hasta la fecha planificada en el Aula Virtual.
 o	El ejercicio 0 será resuelto en la sesión de clase con la explicación de la docente.
@@ -24,6 +25,7 @@ o	El ejercicio 0 será resuelto en la sesión de clase con la explicación de la
 
 
 **Introducción**
+
 Dentro de una red es esencial que cada dispositivo posea un identificador único, es por ello que el direccionamiento es una función clave de los protocolos de capa de red. Dado que facilita la distribución y asignación de IP para cada dispositivo dentro de una subred, permitiendo la transmisión de datos entre hosts de la misma red o en redes diferentes. El Protocolo de Internet versión 4 (IPv4) ofrece direccionamiento jerárquico para paquetes que transportan datos. La correcta implementación, diseño y administración de un plan de direccionamiento IPv4 garantiza que las redes puedan operar de manera eficiente y eficaz. 
 
 En cada red IPv4 existen tres tipos de direcciones: 
@@ -44,7 +46,6 @@ En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con 
 <p align="center">
   <img src="../imagenes/t.autonomo2_1.png" alt="trabajo1" width="70%">
 
-<br>
 <br>
 <br>
 Paso 1:	Determine la cantidad de subredes en la topología de la red A.
@@ -73,7 +74,7 @@ e)	¿Cuántas subredes quedan disponibles para usar en el futuro?
 
 Paso 2:	Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
-
+<br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
 .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
@@ -110,6 +111,7 @@ Complete la siguiente tabla con la información de la subred:
   </tr>
 </tbody>
 </table>
+<br>
 
 ## **Topología de la red B (20 puntos)** 
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
@@ -133,7 +135,7 @@ e)	¿Cuántas subredes quedan disponibles para usar en el futuro?
 
 Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
-
+<br>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
 .tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
@@ -191,7 +193,7 @@ Complete la siguiente tabla con la información de la subred:
   </tr>
 </tbody>
 </table>
-
+<br>
 
 ### **Topología de la red C (20 puntos)**
 
