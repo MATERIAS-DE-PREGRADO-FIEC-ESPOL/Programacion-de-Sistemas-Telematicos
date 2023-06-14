@@ -39,7 +39,7 @@ En el presente trabajo autónomo se proponen actividades relacionadas al aprovis
 
 ## ACTIVIDADES
 
-### **Topología de la red A [Resuelto]:**
+### **Topología de la red A [Resuelto]**
 Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
@@ -112,8 +112,9 @@ Complete la siguiente tabla con la información de la subred:
 </tbody>
 </table>
 <br>
+<br>
 
-## **Topología de la red B (20 puntos)** 
+### **Topología de la red B (20 puntos)** 
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
 
 
