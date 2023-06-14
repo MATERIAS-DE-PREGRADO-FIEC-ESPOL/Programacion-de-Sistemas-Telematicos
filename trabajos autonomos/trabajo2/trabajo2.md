@@ -44,7 +44,7 @@ Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
 <p align="center">
-  <img src="../imagenes/trabajo2_topologia0_resuelta.png" alt="trabajo1" width="90%">
+  <img src="../imagenes/trabajo2_topologia0_resuelta.png" alt="trabajo1" width="80%">
 <br>
 <br>
 
@@ -155,26 +155,31 @@ La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace red
 
 <br>
 <p align="center">
-  <img src="../imagenes/trabajo2_topologia_red_c.png" alt="trabajo1" width="80%">
+  <img src="../imagenes/trabajo2_topologia_red_c.png" alt="trabajo1" width="90%">
+
+<br>
+<br>
 
 **Paso 1:** Determine la cantidad de subredes en la topología de la red C.
 
-
-- a.	¿Cuántas subredes existen y a qué tipo de clase pertenecen cada una?.
+<br>
+- ¿Cuántas subredes existen y a qué tipo de clase pertenecen cada una?.
      
 
-- b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas?.
+- ¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas?.
 
       
-- c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?.
+- ¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?.
 
      
-- d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?. 
+- ¿Cuál es la máscara de subred nueva en formato decimal punteado?. 
      
 
-- e.	¿Cuántas subredes quedan disponibles para usar en el futuro?. 
+- ¿Cuántas subredes quedan disponibles para usar en el futuro?. 
 
- 
+<br>
+<br>
+
 Paso 2: Registre la información de subred.
 
 <br>
@@ -361,9 +366,11 @@ Paso 4: Análisis
 
 ### **Topología de la red D (30 puntos)** 
 Utilice la dirección de red 192.170.0.0/16 para proporcionar las direcciones en el diagrama mostrado.
-   
+
+<br>
 <p align="center">
-  <img src="../imagenes/trabajo2_topologia_red_d.png" alt="trabajo1" width="80%">
+  <img src="../imagenes/trabajo2_topologia_red_d.png" alt="trabajo1" width="90%">
+<br>
 
 Paso 1: Determine la cantidad de subredes en la topología de la red D.
 
@@ -476,6 +483,7 @@ Complete la siguiente tabla con la información de la subred.
 </tbody>
 </table>
 <br>
+<br>
 
 Paso 3: Análisis
 
@@ -483,14 +491,16 @@ a.	¿Qué beneficios conlleva que R4 esté en la topología de red?
 
 b.	La organización ha detectado que existen problemas en la red interna. El Departamento Técnico ha descubierto que los problemas se deben a que los paquetes se duplican. Además, de que el tráfico de datos se encuentra congestionado. Usted como Ingeniero en mecatrónica de la organización, habiendo aprendido la matería de Programación de Sistemas Telemáticos, le piden que emita un informe técnico en base a estos inconvenientes. ¿Cuál es el inconveniente presentado en este caso?. 
 
+<br>
 
 ### **Topología de la red E (30 puntos)**
 La organización tiene una dirección de red 192.37.0.0/16 que se dividirá como se ilustra en la topología siguiente. Debe elegir un esquema de direccionamiento que pueda admitir la cantidad de redes y hosts en la topología.
 
-
+<br>
 <p align="center">
-  <img src="../imagenes/trabajo2_topologia_red_e.png" alt="trabajo1" width="80%">
-
+  <img src="../imagenes/trabajo2_topologia_red_e.png" alt="trabajo1" width="90%">
+<br>
+<br>
 
 Paso 1: Determine la cantidad de subredes en la topología de la red E.
 
@@ -508,6 +518,8 @@ d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
      
 e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
      
+<br>
+<br>
 
 Paso 2: Registre la información de subred.
 Complete la siguiente tabla con la información de la subred:
@@ -700,16 +712,7 @@ Paso 4: Análisis.
 a.	La organización quiere hacer un inventario para reconocer las computadoras de la Sucursal 1 que estén activas y conectados a la subred. ¿Qué acción recomendaría en este caso?.
      
 
-**Reflexiones**
-1.	¿Qué información es necesaria para determinar un esquema de direccionamiento adecuado en una red?
-     
-
-2.	Una vez asignadas las subredes, ¿se utilizarán todas las direcciones de host en cada subred?.
-     
-
-3.	Explique las funciones de las capas del modelo OSI.
-     
-
-4.	En caso de que requiera una red sin conexión a internet con la menor cantidad de hosts posibles, ¿Cúal es la máscara de subred que usaría?. Argumente su respuesta.
-
-
+### Desafío (2 puntos extras)
+- Configurar rutas estáticas en los routers de una de las topologías de red que no haya sido hecha en la sesión de clase.
+- Presentar la simulación de la red hecha en la aplicación de GNS3 o Cisco Packet Tracer.
+- Presentar los resultados de pruebas de conectividad usando ping, entre cada una de las redes de la topología de red seleccionada.
