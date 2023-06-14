@@ -602,98 +602,84 @@ a.	Complete la siguiente tabla con las direcciones IP y las máscaras de subred 
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-gijy{border-color:#3531ff;text-align:center;vertical-align:bottom}
-.tg .tg-70h3{border-color:#3166ff;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-bhg3{border-color:#3166ff;color:#ffffff;font-size:16px;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-rbd8{border-color:#3166ff;text-align:center;vertical-align:bottom}
-.tg .tg-3sc7{border-color:#3531ff;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-i5h4{border-color:#3531ff;text-align:center;vertical-align:top}
+.tg .tg-rkqj{border-color:#000000;color:#ffffff;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-xwyw{border-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-kvxc{border-color:#000000;text-align:left;vertical-align:bottom}
 </style>
-<table class="tg">
+<table class="tg" style="undefined;table-layout: fixed; width: 464px">
+<colgroup>
+<col style="width: 94px">
+<col style="width: 140px">
+<col style="width: 92px">
+<col style="width: 138px">
+</colgroup>
 <thead>
   <tr>
-    <th class="tg-bhg3">   <br>Dispositivo   </th>
-    <th class="tg-bhg3">   <br>Interfaz   </th>
-    <th class="tg-bhg3">   <br>Dirección IP   </th>
-    <th class="tg-bhg3">   <br>Máscara de subred   </th>
-    <th class="tg-bhg3">   <br>Dirección de <br>broadcast   </th>
+    <th class="tg-rkqj">Dispositivo</th>
+    <th class="tg-rkqj">Interfaz</th>
+    <th class="tg-rkqj">Dirección IP</th>
+    <th class="tg-rkqj">Máscara de subred</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-70h3" rowspan="4">&nbsp;&nbsp;&nbsp;<br><span style="color:black">R1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">   <br><span style="color:black">GigabitEthernet 0/0</span>   </td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-xwyw" rowspan="4"><span style="color:black">R1</span></td>
+    <td class="tg-73oq"><span style="color:black">Serial 0/0/0</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-rbd8">   <br><span style="color:black">GigabitEthernet 0/1</span>   </td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-73oq"><span style="color:black">Serial 0/0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-rbd8">   <br><span style="color:black">Serial 0/0/0</span>   </td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-73oq"><span style="color:black">GigabitEthernet 0/0</span></td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-rbd8">   <br><span style="color:black">Serial 0/0/1</span>   </td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-73oq"><span style="color:black">GigabitEthernet 0/1</span></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-70h3" rowspan="4">&nbsp;&nbsp;&nbsp;<br><span style="color:black">R2</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">   <br><span style="color:black">GigabitEthernet 0/0</span>   </td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-rbd8">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-xwyw" rowspan="4"><span style="color:black">R2</span></td>
+    <td class="tg-73oq"><span style="color:black">Serial 0/0/0</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-gijy">   <br><span style="color:black">GigabitEthernet 0/1</span>   </td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-73oq"><span style="color:black">Serial 0/0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-gijy">   <br><span style="color:black">Serial 0/0/0</span>   </td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-73oq"><span style="color:black">GigabitEthernet 0/0</span></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
   </tr>
   <tr>
-    <td class="tg-gijy">   <br><span style="color:black">Serial 0/0/1</span>   </td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-73oq"><span style="color:black">GigabitEthernet 0/1</span></td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-3sc7" rowspan="4">&nbsp;&nbsp;&nbsp;<br><span style="color:black">R3</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">   <br><span style="color:black">GigabitEthernet 0/0</span>   </td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black;background-color:#BFBFBF">     </span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-xwyw" rowspan="3"><span style="color:black">R3</span></td>
+    <td class="tg-73oq"><span style="color:black">Serial 0/0/0</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black">GigabitEthernet 0/1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
+    <td class="tg-73oq"><span style="color:black">Serial 0/0/1</span>   </td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
   <tr>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Serial 0/0/0</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
-  </tr>
-  <tr>
-    <td class="tg-gijy">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Serial 0/0/1</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
-    <td class="tg-i5h4">   <br><span style="color:black;background-color:#BFBFBF">     </span>   </td>
+    <td class="tg-73oq"><span style="color:black">GigabitEthernet 0/0</span></td>
+    <td class="tg-kvxc"></td>
+    <td class="tg-kvxc"></td>
   </tr>
 </tbody>
 </table>
