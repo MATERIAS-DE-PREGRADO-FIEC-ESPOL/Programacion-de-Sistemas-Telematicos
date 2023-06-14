@@ -39,7 +39,7 @@ En el presente trabajo autónomo se proponen actividades relacionadas al aprovis
 
 ## ACTIVIDADES
 
-### **Topología de la red A [Resuelto]**
+## **Topología de la red A [Resuelto]**
 Contiene el proceso explicado con la resolución correspondiente. (Ejemplo)
 En la parte 1, se otorgó la dirección de red 192.168.10.0/24 a la subred, con la siguiente topología. Determine la cantidad de redes necesarias y luego diseñe un esquema de direccionamiento adecuado.
 
@@ -115,7 +115,7 @@ Complete la siguiente tabla con la información de la subred:
 </table>
 <br>
 
-### **Topología de la red B (20 puntos)** 
+## **Topología de la red B (20 puntos)** 
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
 
 <p align="center">
@@ -149,7 +149,7 @@ Complete la siguiente tabla con la información de la subred:
 <br>
 <br>
 
-### **Topología de la red C (20 puntos)**
+## **Topología de la red C (20 puntos)**
 
 La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
 
@@ -363,8 +363,10 @@ Paso 4: Análisis
      
 - b.	En caso la conexión falle entre R2 y S2, ¿PC-C y PC-D pueden seguir comunicándose?. Argumente su respuesta.
 
+<br>
+<br>
 
-### **Topología de la red D (30 puntos)** 
+## **Topología de la red D (30 puntos)** 
 Utilice la dirección de red 192.170.0.0/16 para proporcionar las direcciones en el diagrama mostrado.
 
 <br>
@@ -492,8 +494,9 @@ a.	¿Qué beneficios conlleva que R4 esté en la topología de red?
 b.	La organización ha detectado que existen problemas en la red interna. El Departamento Técnico ha descubierto que los problemas se deben a que los paquetes se duplican. Además, de que el tráfico de datos se encuentra congestionado. Usted como Ingeniero en mecatrónica de la organización, habiendo aprendido la matería de Programación de Sistemas Telemáticos, le piden que emita un informe técnico en base a estos inconvenientes. ¿Cuál es el inconveniente presentado en este caso?. 
 
 <br>
+<br>
 
-### **Topología de la red E (30 puntos)**
+## **Topología de la red E (30 puntos)**
 La organización tiene una dirección de red 192.37.0.0/16 que se dividirá como se ilustra en la topología siguiente. Debe elegir un esquema de direccionamiento que pueda admitir la cantidad de redes y hosts en la topología.
 
 <br>
@@ -711,8 +714,10 @@ a.	Complete la siguiente tabla con las direcciones IP y las máscaras de subred 
 Paso 4: Análisis.
 a.	La organización quiere hacer un inventario para reconocer las computadoras de la Sucursal 1 que estén activas y conectados a la subred. ¿Qué acción recomendaría en este caso?.
      
+<br>
+<br>
 
-### Desafío (2 puntos extras)
+## Desafío (2 puntos extras)
 - Configurar rutas estáticas en los routers de una de las topologías de red que no haya sido hecha en la sesión de clase.
 - Presentar la simulación de la red hecha en la aplicación de GNS3 o Cisco Packet Tracer.
 - Presentar los resultados de pruebas de conectividad usando ping, entre cada una de las redes de la topología de red seleccionada.
