@@ -130,6 +130,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
   <td class="tg-73oq"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">152.77.224.1 – 152.77.255.254</span></td>
   </tr>
 </tbody>
+</table>
 
 <br>
 <br>
@@ -295,6 +296,7 @@ El siguiente trabajo autónomo tiene como propósito que el estudiante pueda des
     <td class="tg-mqa1">Subred</td>
     <td class="tg-mqa1"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Primera dirección host - Última dirección host válida</span></td>
   </tr>
+</tbody>
 </table>
 
 <br>
