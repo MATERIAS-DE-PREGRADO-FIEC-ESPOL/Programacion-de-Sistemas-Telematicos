@@ -1,5 +1,6 @@
 # OBJETIVO DE APRENDIZAJE
 Utilizar tecnologías web basadas en red para el monitoreo del estado y la información de los dispositivos telemáticos.
+
 # Aplicaciones basadas en red
 imagen
 # Visual Studio Code Aplicaciones basadas en red
