@@ -323,6 +323,7 @@ La partición swap, es un espacio de intercambio de ayuda a la memoria RAM a pas
 <a name="referencias"> </a>
 
 ## 📚 Referencias
-- VirtualBox from https://www.virtualbox.org
-- Vmware from https://www.vmware.com
-- Microsoft Azure from https://azure.microsoft.com/
+- [VirtualBox](https://www.virtualbox.org)
+- [Vmware](https://www.vmware.com)
+- [Microsoft Azure](https://azure.microsoft.com/)
+- [Submarine Cable Map from](https://www.submarinecablemap.com/)
