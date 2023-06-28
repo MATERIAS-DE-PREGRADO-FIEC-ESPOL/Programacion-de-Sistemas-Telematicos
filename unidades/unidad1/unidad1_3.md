@@ -291,20 +291,20 @@ Previo a la instalación de una distribución de Linux para un servidor es neces
 - En el primer sector del disco está el registro de arranque maestro “MBR” junto a la tabla de particiones.
 
 <p align="center">
-  <img src="imagenes/unidad1_3_particion.png" alt="industria" width="100%">
+  <img src="../imagenes/unidad1_3_particion.png" alt="industria" width="100%">
 </p>
 
 En Linux los manejadores, que se encuentran en el directorio /dev, se usan para comunicarse con los dispositivos de su sistema como discos duros. Los discos duros SSD se nombran con /dev/disksn.
 
 <p align="center">
-  <img src="imagenes/unidad1_3_df.png" alt="industria" width="100%">
+  <img src="../imagenes/unidad1_3_df.png" alt="industria" width="100%">
 </p>
 
 Por lo general se crean dos particiones para Linux, una para ser usada como sistema de ficheros raíz y la otra como espacio de intercambio “swap”.
 La partición swap, es un espacio de intercambio de ayuda a la memoria RAM a pasar datos temporalmente al disco duro.
 
 <p align="center">
-  <img src="imagenes/unidad1_3_particiones_servidor.png" alt="industria" width="100%">
+  <img src="../imagenes/unidad1_3_particiones_servidor.png" alt="industria" width="100%">
 </p>
 
 
@@ -316,7 +316,7 @@ La partición swap, es un espacio de intercambio de ayuda a la memoria RAM a pas
 - [Microsoft Azure](https://azure.microsoft.com/)
 
 <p align="center">
-  <img src="imagenes/unidad1_3_virtualization_tools.png" alt="industria" width="70%">
+  <img src="../imagenes/unidad1_3_virtualization_tools.png" alt="industria" width="70%">
 </p>
 
 
