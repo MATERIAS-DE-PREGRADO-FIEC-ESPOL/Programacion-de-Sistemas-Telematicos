@@ -1,5 +1,6 @@
 ## 🎯 Objetivo de Aprendizaje
 Utilizar tecnologías web basadas en red para el monitoreo del estado y la información de los dispositivos telemáticos.
+<<<<<<< HEAD:unidades/unidad2/unidad2.1.md
 ## 🌐 Aplicaciones basadas en red
 
 <p align="center">
@@ -13,6 +14,12 @@ Utilizar tecnologías web basadas en red para el monitoreo del estado y la infor
 </p>
 
 ## 🌐 Aplicaciones basadas en red
+=======
+
+# Aplicaciones basadas en red
+imagen
+# Visual Studio Code Aplicaciones basadas en red
+>>>>>>> b766d35559fd0e472b73b44a9fc40bcdb2d2cbfb:unidades/unidad2/unidad2.md
 + Editor de código fuente ligero.
 + Disponible para Windows, macOS y Linux.
 + Soporte integrado para JavaScript, TypeScript y Node.js
