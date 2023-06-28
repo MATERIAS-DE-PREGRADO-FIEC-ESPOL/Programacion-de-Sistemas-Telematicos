@@ -28,7 +28,7 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 <p align="center">
   <img src="../imagenes/conversion_decimal.png  " alt="conversion_decimal" width="60%">
-
+</p>
 
 <a name="mascara_red"> </a>
 ## 🌐 Máscara de subred IPv4
@@ -38,6 +38,7 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 <p align="center">
   <img src="../imagenes/porcion_red.png" alt="porcion_red" width="60%">
+</p>
 
 - Para definir las porciones de red y de host de una dirección, los dispositivos utilizan un patrón de 32 bits separado conocido como “máscara de subred”.
 - La máscara de subred no contiene realmente las porciones de red y de host de la dirección IPv4, sino que tan solo indica dónde buscar estas porciones en una dirección IPv4 determinada.
@@ -48,6 +49,7 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 <p align="center">
   <img src="../imagenes/red_host_broadcast.png" alt="red_host_broadcast" width="80%">
+</p>
 
 
 

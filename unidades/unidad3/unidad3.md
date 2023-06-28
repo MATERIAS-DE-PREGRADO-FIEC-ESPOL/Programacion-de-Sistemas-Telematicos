@@ -1,22 +1,22 @@
-# OBJETIVO DE APRENDIZAJE
+## 🎯 Objetivo de Aprendizaje 
+
 Desarrollar interfaces de usuario en entornos móvil para el control remoto de sistemas telemáticos.
 
-# ANDROID
+## 🌐 Android
 
 + Proporciona una plataforma para usuarios móviles.
 + Carece de los paquetes tradicionales de GNU / Linux para que sea compatible con el escritorio.
 + Patrocinado por Google.
 
-# Estructura del sistema operativo
+## 🌐 Estructura del sistema operativo
 1. Aplicaciones escritas en Java.
 2. Arquitectura diseñada para simplificar la reutilización de componentes.
 3. Incluye un conjunto de bibliotecas de C/C++ usadas por varios componentes del sistema
 4. Incluye un set de bibliotecas base que proporcionan la mayor parte de las funciones disponibles en las bibliotecas base del lenguaje Java.
 5. Android depende de Linux para los servicios base del sistema como seguridad, gestión de memoria, gestión de procesos, pila de red y modelo de controladores.
 
-Imagen
 
-# Entorno de Desarrollo Móvil
+## 🌐Entorno de Desarrollo Móvil
 
 + Java JDK 1.6+
 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -28,7 +28,7 @@ Imagen
 + Android Development Tools
 ( https://dll-ssl.google.com/android/eclipse/ )
 
-# Estructura de un proyecto en Android Studio
+## 🌐Estructura de un proyecto en Android Studio
 
 app>java>com.example.myfirstapp>MainActivity
 Esta es la actividad principal (el punto de entrada para tu app). Cuando compilas y ejecutas la app, el sistema inicia una instancia de esta Activity y carga su diseño.
@@ -46,7 +46,7 @@ Diseño de la interfaz de usuario
 
 imagen
 
-# Componentes de una aplicación
+## 🌐Componentes de una aplicación
 
 **Activity**
 
@@ -70,34 +70,31 @@ Son elementos visuales, interactivos, que pueden mostrarse en la pantalla princi
 **Intent**
 Es el elemento básico de comunicación entre los distintos componentes Android, como dos actividades.
 
-# Prototipado móvil
+## 🌐 Prototipado móvil
 
-imagen
 
-# Desarrollando una Aplicación
+
+
+## 🌐 Desarrollando una Aplicación
+
 Crear una aplicación donde se ingresa el nombre del usuario y la clave, al dar click en “Login” el usuario ingresará a la aplicación móvil.
 
-imagen
 
-# Interfaz de usuario: Layouts
+## 🌐 Interfaz de usuario: Layouts
 
-imagen
 
 Un FrameLayout coloca todos sus controles hijos alineados con su esquina superior izquierda, de forma que cada control quedará oculto por el control siguiente. 
 
-imagen
+
 
 Este layout apila uno tras otro todos sus  Elementos hijos de forma horizontal o Vertical según se establezca su propiedad Android:orientation
 
-imagen
 
 Un TableLayout permite distribuir sus elementos hijos de forma tabular, definiendo las filas y columnas necesarias, y la posición de cada componente dentro de la tabla.
 
-imagen
-
 Este layout permite especificar la posición de cada elemento de forma relativa a su elemento padre o a cualquier otro elemento incluido en el propio layout.
 
-# Layouts propiedades   
+## 🌐 Layouts propiedades   
 
 **Posición relativa a otro control:**
 
@@ -137,29 +134,28 @@ Este layout permite especificar la posición de cada elemento de forma relativa 
 + android:paddingLeft.
 + android:paddingRight.
 
-# Interfaz de usuario: Controles básicos
+## 🌐 Interfaz de usuario: Controles básicos
+
 **El SDK de Android nos proporciona tres tipos de botones:**
+
 + El clásico (Button)
 + El de tipo on/off (ToggleButton)
 + El que puede contener una imagen (Imagebutton)
 
-imagen
-
-# Menús en Android
+## 🌐 Menús en Android
 En Android podemos encontrar 3 tipos diferentes de menús:
 
-   + Menús Principales. Los más habituales, aparecen en la zona inferior de la pantalla al pulsar el botón ‘menu’ del teléfono.
-   + Submenús. Son menús secundarios que se pueden mostrar al pulsar sobre una opción de un menú principal.
-   + Menús Contextuales. Útiles en muchas ocasiones, aparecen al realizar una pulsación larga sobre algún elemento de la pantalla.
+   + **Menús Principales:** Los más habituales, aparecen en la zona inferior de la pantalla al pulsar el botón ‘menu’ del teléfono.
+   + **Submenús** Son menús secundarios que se pueden mostrar al pulsar sobre una opción de un menú principal.
+   + **Menús Contextuales:** Útiles en muchas ocasiones, aparecen al realizar una pulsación larga sobre algún elemento de la pantalla.
 
-imagenes
 
-# Widgets
+# 🌐Widgets
 Los pasos principales para la creación de un widget Android son los siguientes:
 1. Definición de su interfaz gráfica (layout).
-Configuración XML del widget (AppWidgetProviderInfo).
-2. Implementación de la funcionalidad del widget (AppWidgetProvider), especialmente su evento de actualización.
-3.  Declaración del widget en el Android Manifest de la aplicación.
+2. Configuración XML del widget (AppWidgetProviderInfo).
+3. Implementación de la funcionalidad del widget (AppWidgetProvider), especialmente su evento de actualización.
+4.  Declaración del widget en el Android Manifest de la aplicación.
 
 El layout de los widgets de Android está basado en un tipo especial de componentes llamados RemoteViews, sin embargo hay unos pocos básicos que se indican acontinuación:
 
@@ -168,7 +164,7 @@ El layout de los widgets de Android está basado en un tipo especial de componen
 + **Controles**: Button, ImageButton, ImageView, TextView, ProgressBar,Chronometer, 
 AnalogClock y ViewFlipper. A partir de Android 3 también podemos utilizar ListView, GridView, StackView y AdapterViewFlipper. 
 
-# Tratamiento de XML
+## 🌐Tratamiento de XML
 
 Los dos modelos más extendidos son SAX (Simple API for XML) y DOM (Document Object Model).
 
@@ -190,9 +186,7 @@ En el modelo SAX, el tratamiento de un XML se basa en un analizador (parser) que
 </noticias>
 
 
-## imagen
-
-## Base de Datos en Android Studio
+## 🌐 Base de Datos en Android Studio
 
 La plataforma Android proporciona dos herramientas principales para el almacenamiento y consulta de datos estructurados:
 
@@ -201,8 +195,10 @@ La plataforma Android proporciona dos herramientas principales para el almacenam
 
 SQLite es un motor de bases de datos muy popular en la actualidad por ofrecer características tan interesantes como su pequeño tamaño, no necesitar servidor, precisar poca configuración, ser transaccional y por supuesto ser de código libre.
 
-## MÉTODOS PARA OPERACIONES DB
+## 🌐Métodos para operaciones DB
+
 ### Método 1
+
 //Insertar un registro
 db.execSQL("INSERT INTO Usuarios (codigo,nombre) VALUES (6,'usuariopru') ");
  
@@ -212,7 +208,7 @@ db.execSQL("DELETE FROM Usuarios WHERE codigo=6 ");
 //Actualizar un registro
 db.execSQL("UPDATE Usuarios SET nombre='usunuevo' WHERE codigo=6 ");
 
-## Método 2
+### Método 2
 
 ### INSERCIÓN
 
@@ -244,15 +240,12 @@ db.delete("Usuarios", "codigo=6", null);
 Un toast es un mensaje que se muestra en pantalla durante unos segundos al usuario para luego volver a desaparecer automáticamente sin requerir ningún tipo de actuación por su parte, y sin recibir el foco en ningún momento (o dicho de otra forma, sin interferir en las acciones que esté realizando el usuario en ese momento). Aunque son personalizables, aparecen por defecto en la parte inferior de la pantalla, sobre un rectángulo gris ligeramente translúcido.
 
 
-IMAGEN
-
-# Notificaciones: Barra de Estado
+## 🌐 Notificaciones: Barra de Estado
 
 Las notificaciones de la barra de estado de Android. Estas notificaciones son las que se muestran en nuestro dispositivo por ejemplo cuando recibimos un mensaje SMS, cuando tenemos actualizaciones disponibles, cuando tenemos el reproductor de música abierto en segundo plano, … Estas notificaciones constan de un icono y un texto mostrado en la barra de estado superior, y adicionalmente un mensaje algo más descriptivo y una marca de fecha/hora que podemos consultar desplegando la bandeja del sistema.
 
-IMAGEN
 
-# Notificaciones: Diálogos
+## 🌐 Notificaciones: Diálogos
 
 Los diálogos de Android los podremos utilizar con distintos fines, en general:
 
@@ -264,20 +257,18 @@ Los diálogos de Android los podremos utilizar con distintos fines, en general:
 
 Este tipo de diálogo se limita a mostrar un mensaje sencillo al usuario, y un único botón de OK para confirmar su lectura.
 
-IMAGEN
+
 
 ### Diálogo de Confirmación
 
 Un diálogo de confirmación es muy similar al anterior, con la diferencia de que lo utilizaremos para solicitar al usuario que nos confirme una determinada acción, por lo que las posibles respuestas serán del tipo Sí/No.
 
-IMAGEN
 
 
 ### Diálogo de Selección
 
 Cuando las opciones a seleccionar por el usuario no son sólo dos, como en los diálogos de confirmación, sino que el conjunto es mayor podemos utilizar los diálogos de selección para mostrar una lista de opciones entre las que el usuario pueda elegir.
 
-IMAGEN   IMAGEN
 
 # Recomendaciones de estudio
 
