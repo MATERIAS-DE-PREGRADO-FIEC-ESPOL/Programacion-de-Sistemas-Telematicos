@@ -47,10 +47,6 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 <p align="center">
   <img src="../imagenes/conversion_decimal.png  " alt="conversion_decimal" width="60%">
 </p>
-<<<<<<< HEAD
-=======
-
->>>>>>> b766d35559fd0e472b73b44a9fc40bcdb2d2cbfb
 
 <a name="estructura"> </a>
 
@@ -58,13 +54,9 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 <a name="porcion"> </a>
 
-<<<<<<< HEAD
 <p align="center">
   <img src="../imagenes/porcion_red.png" alt="porcion_red" width="60%">
 </p>
-=======
-### 🕸️ Porción de red y porción de host
->>>>>>> b766d35559fd0e472b73b44a9fc40bcdb2d2cbfb
 
 - Para definir las porciones de red y de host de una dirección, los dispositivos utilizan un patrón de 32 bits separado conocido como “máscara de subred”.
 - La máscara de subred no contiene realmente las porciones de red y de host de la dirección IPv4, sino que tan solo indica dónde buscar estas porciones en una dirección IPv4 determinada.
@@ -296,20 +288,20 @@ Previo a la instalación de una distribución de Linux para un servidor es neces
 - En el primer sector del disco está el registro de arranque maestro “MBR” junto a la tabla de particiones.
 
 <p align="center">
-  <img src="imagenes/particion.png" alt="industria" width="100%">
+  <img src="imagenes/unidad1_3_particion.png" alt="industria" width="100%">
 </p>
 
 En Linux los manejadores, que se encuentran en el directorio /dev, se usan para comunicarse con los dispositivos de su sistema como discos duros. Los discos duros SSD se nombran con /dev/disksn.
 
 <p align="center">
-  <img src="imagenes/df.png" alt="industria" width="100%">
+  <img src="imagenes/unidad1_3_df.png" alt="industria" width="100%">
 </p>
 
 Por lo general se crean dos particiones para Linux, una para ser usada como sistema de ficheros raíz y la otra como espacio de intercambio “swap”.
 La partición swap, es un espacio de intercambio de ayuda a la memoria RAM a pasar datos temporalmente al disco duro.
 
 <p align="center">
-  <img src="imagenes/particiones_servidor.png" alt="industria" width="100%">
+  <img src="imagenes/unidad1_3_particiones_servidor.png" alt="industria" width="100%">
 </p>
 
 
