@@ -26,14 +26,19 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 ## 🌐 ¿Qué es la Red?
 
 <a name="redes_locales"> </a>
+
 ### **Redes locales**
 Las redes locales vienen en todos los tamaños: entre pares (dos dispositivos interconectados) o redes domésticas, hasta redes SOHO y redes de organizaciones grandes.
 
+
 <a name="conexiones"> </a>
+
 ### **Conexiones**
 Todos los tipos de dispositivos se conectan a redes locales.
 
+
 <a name="datos"> </a>
+
 ### **Datos**
 La mayoría de la gente utiliza redes para transmitir sus propios datos para compartirlos con otras personas o para almacenarlos a largo plazo.
 
@@ -41,7 +46,9 @@ La mayoría de la gente utiliza redes para transmitir sus propios datos para com
   <img src="../gifs/networks.gif" alt="networks" width="60%">
 </p>
 
+
 <a name="comunicacion"> </a>
+
 ## 🌐 Comunicación en red
 - Un emisor y un receptor identificados
 - Método de comunicación acordado
@@ -53,7 +60,9 @@ La mayoría de la gente utiliza redes para transmitir sus propios datos para com
   <img src="../imagenes/communication.png" alt="communications" width="60%">
 </p>
 
+
 <a name="protocolos"> </a>
+
 ## 🌐 Protocolos de red
 - Formato o estructuración del mensaje.
 - Proceso por el cual los dispositivos de red comparten información sobre las rutas con otras redes.
@@ -84,7 +93,9 @@ Una dirección IP puede configurarse manualmente o ser asignada automáticamente
   <img src="../imagenes/componentes_red.png" alt="componentes" width="60%">
 </p>
 
+
 <a name="sistema_telematico"> </a>
+
 ## 🌐 ¿Qué es un sistema telemático?
 Es un sistema compuesto por dispositivos interconectados a la red de datos, diseñados para realizar una función específica siendo una combinación de ambos hardware y software.
 imagen

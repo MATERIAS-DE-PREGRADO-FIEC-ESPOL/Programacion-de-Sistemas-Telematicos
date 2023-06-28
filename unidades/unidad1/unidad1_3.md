@@ -22,7 +22,14 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 - [Transmisión de mensajes en la red](#mensaje)
 - [Clases de direcciones IPv4](#clases_direcciones)
 - [Conectividad a la red](#conectividad)
+¿Cómo crear una red LAN?
 - [Topologías de red](#topologias)
+- [Internet: Mapa de cables submarinos](#internet)
+- [Administración de sistemas operativos en red](#sistemas_operativos)
+  - [Recursos computacionales para Linux](#recursos)
+  - [Tipos de Instalación](#instalacion)
+  - [Particiones en un disco duro](#particiones)
+  - [Herramientas de virtualización](#herramientas_virtualizacion)
 - [Referencias](#referencias)
 
 
@@ -162,11 +169,11 @@ Ejemplo de redes públicas: 11.0.0.0/8, 172.40.0.0/16, 200.93.195.0/24.
 Importante: No es posible asignar a hosts la primera ni la última dirección de cada red (direcciones de red y de broadcast).
 
 <p align="center">
-  <img src="../imagenes/unidad1_3_clases_direcciones1.png" alt="red_host_broadcast" width="80%">
+  <img src="../imagenes/unidad1_3_clases_direcciones1.png" alt="red_host_broadcast" width="90%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/unidad1_3_clases_direcciones2.png" alt="red_host_broadcast" width="80%">
+  <img src="../imagenes/unidad1_3_clases_direcciones2.png" alt="red_host_broadcast" width="60%">
 </p>
 
 
@@ -175,9 +182,26 @@ Importante: No es posible asignar a hosts la primera ni la última dirección de
 ## 🌐 Conectividad a la red
 
 <p align="center">
-  <img src="../imagenes/unidad1_3_conectividad.png" alt="red_host_broadcast" width="80%">
+  <img src="../imagenes/unidad1_3_conectividad.png" alt="ping" width="80%">
 </p>
 
+```
+adi@host-200-126-27-173 ~ % ping www.espol.edu.ec -c 10
+PING www.espol.edu.ec (192.188.59.149): 56 data bytes
+64 bytes from 192.188.59.149: icmp_seq=0 ttl=254 time=8.977 ms
+64 bytes from 192.188.59.149: icmp_seq=1 ttl=254 time=6.928 ms
+64 bytes from 192.188.59.149: icmp_seq=2 ttl=254 time=6.693 ms
+64 bytes from 192.188.59.149: icmp_seq=3 ttl=254 time=7.502 ms
+64 bytes from 192.188.59.149: icmp_seq=4 ttl=254 time=7.028 ms
+64 bytes from 192.188.59.149: icmp_seq=5 ttl=254 time=6.997 ms
+64 bytes from 192.188.59.149: icmp_seq=6 ttl=254 time=7.433 ms
+64 bytes from 192.188.59.149: icmp_seq=7 ttl=254 time=7.103 ms
+64 bytes from 192.188.59.149: icmp_seq=8 ttl=254 time=7.673 ms
+64 bytes from 192.188.59.149: icmp_seq=9 ttl=254 time=8.110 ms
+--- www.espol.edu.ec ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 6.693/7.444/8.977/0.646 ms
+```
 
 <a name="lan"> </a>
 
@@ -197,11 +221,11 @@ Importante: No es posible asignar a hosts la primera ni la última dirección de
 Las topologías de red están compuestas de dispositivos intermedios y finales de la red. En que cada dispositivo de red tiene configurado direccionamiento IPv4.
 
 <p align="center">
-  <img src="../imagenes/unidad1_3_topologia1.jpg" alt="red_domestica" width="100%">
+  <img src="../imagenes/unidad1_3_topologia1.png" alt="red_domestica" width="80%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/unidad1_3_topologia2.jpg" alt="red_domestica" width="100%">
+  <img src="../imagenes/unidad1_3_topologia2.png" alt="red_domestica" width="80%">
 </p>
 
 ## 🌐 Internet: Mapa de cables submarinos
@@ -218,40 +242,82 @@ Las topologías de red están compuestas de dispositivos intermedios y finales d
   - Puerto San Jose, Guatemala
   - Lurin, Peru
 
-# Administración de Sistemas operativos en red
-+ Como todo sistema operativo, Linux tiene exigencias en el hardware donde se ejecutará, es por eso que antes de que se precipite e instale el software, tiene que asegurarse de estos requerimientos y limitaciones de hardware de Linux.
-
-+ Considerando que Linux fue desarrollado por sus usuarios, en la mayoría de las ocasiones el hardware soportado por Linux es únicamente aquél al que usuarios y desarrolladores tiene realmente acceso. Según pasa el tiempo aumenta el hardware soportado por Linux.
-
-+ Un inconveniente en el soporte de hardware bajo Linux, es que muchas compañías han decidido conservar las especificaciones del interfaz de su hardware como propietario. Como consecuencia de esto, los desarrolladores voluntarios de Linux simplemente no pueden escribir controladores (drivers) para estos periféricos (y si pudieran, tales controladores serían propiedad de la compañía dueña de la interfaz, lo cual violaría el GPL).
-# Requerimientos de Hardware para el Sistema Operativo Linux
-Existe un documento Linux Hardware Compatibility HOWTO que contiene un listado más completo del hardware soportado por Linux en cualquier distribución. El enlace es el siguiente:
-http://www.tldp.org/HOWTO/Hardware-HOWTO/
+<p align="center">
+  <img src="../imagenes/unidad1_3_mapa_cable_submarino.png" alt="red_domestica" width="100%">
+</p>
 
 
-## Selección de la distribución correcta
-Para seleccionar la distribución correcta del sistema operativo Linux para un servidor, es necesario considerar los requisitos básicos de hardware:
-1. Intel Celeron de 2.4 Ghz como mínimo.
-2. Procesador Pentium IV.
-3. Tarjetas de Red: 2 NICs PCI Realtek/basadas en chip Realtek o Vía.
-4. Disco duro: 40 GB mínimo.
-5. Memoria RAM: 4 GB.
-## Tipos de Instalación
-+ Estación de trabajo: Más adecuada si es nuevo en el mundo de Linux y quiere probarlo. 
-+ Servidor: Si desea que su sistema funcione como un servidor basado en Linux utilizando servicios específicos
-+ Portátil: Instalación sencilla en ordenadores portátiles. 
-+ Personalizada: Mayor flexibilidad en el proceso de instalación. Podrá elegir su esquema de particionamiento, los paquetes que desea instalar y mucho más.
-+ Actualización: Para actualizar rápidamente a los últimos paquetes y versiones del kernel. 
-## Particiones en un disco duro para Linux 
-+ Hay tres clases de particiones: primarias, extendidas y lógicas.
-+ Muchas distribuciones necesitan que se creen a mano las particiones de Linux utilizando el programa fdisk. Otras pueden crearlas automáticamente.
-+ En el primer sector del disco está el registro de arranque maestro “MBR” junto a la tabla de particiones.
-## Particiones en un disco duro para Linux 
-En Linux los manejadores, que se encuentran en el directorio /dev, se usan para comunicarse con los dispositivos de su sistema como discos duros. Los discos duros SCSI se nombran con /dev/sda. Los discos duros IDE se nombran /dev/hda y las particiones son /dev/hda1, /dev/hda2, etc.
-## Particiones en un disco duro para Linux 
-Durante la instalación del Sistema Operativo Linux para un servidor de la red empresarial, es recomendable realizar el particionamiento del disco duro de manera personalizada. Por lo general se crean dos particiones para Linux, una para ser usada como sistema de ficheros raíz y la otra como espacio de intercambio “swap”.
-La partición swap, es un espacio de intercambio de ayuda a la memoria RAM a pasar datos temporalmente al disco duro. El tamaño de la partición swap depende de la RAM virtual que necesite, es decir por lo general se crea una partición swap del doble de espacio de su RAM física. A continuación se detalla el particionamiento del disco duro de 80 GB:
-Herramientas de Simulación de Sistemas Operativos
-1. VirtualBox: https://www.virtualbox.org
-2. Vmware: https://www.vmware.com
-3. Microsoft Azure: https://azure.microsoft.com/
+<a name="sistemas_operativos"> </a>
+
+## 🌐 Administración de sistemas operativos en red
+- Como todo sistema operativo, Linux tiene exigencias en el hardware donde se ejecutará, es por eso que antes de que se precipite e instale el software, tiene que asegurarse de estos requerimientos y limitaciones de hardware de Linux.
+
+- Considerando que Linux fue desarrollado por sus usuarios, en la mayoría de las ocasiones el hardware soportado por Linux es únicamente aquél al que usuarios y desarrolladores tiene realmente acceso. Según pasa el tiempo aumenta el hardware soportado por Linux.
+
+- Un inconveniente en el soporte de hardware bajo Linux, es que muchas compañías han decidido conservar las especificaciones del interfaz de su hardware como propietario. Como consecuencia de esto, los desarrolladores voluntarios de Linux simplemente no pueden escribir controladores (drivers) para estos periféricos (y si pudieran, tales controladores serían propiedad de la compañía dueña de la interfaz, lo cual violaría el GPL).
+
+
+<a name="recursos"> </a>
+
+### 💻 Recursos computacionales para Linux
+Previo a la instalación de una distribución de Linux para un servidor es necesario considerar los recursos básicos de hardware como sigue:
+
+- CPU: Intel Celeron de 2.4 Ghz
+ -Procesador: Pentium IV
+- Disco duro: 40 GB
+- Memoria: 4 GB
+- Tarjetas de Red: 2 NICs PCI Realtek/basadas en chip Realtek o Via
+
+
+<a name="instalacion"> </a>
+
+### 💻 Tipos de Instalación
+- Estación de trabajo: Más adecuada si es nuevo en el mundo de Linux y quiere probarlo. 
+- Servidor: Si desea que su sistema funcione como un servidor basado en Linux utilizando servicios específicos.
+- Portátil: Instalación sencilla en ordenadores portátiles. 
+- Personalizada: Mayor flexibilidad en el proceso de instalación. Podrá elegir su esquema de particionamiento, los paquetes que desea instalar y mucho más. 
+- Actualización: Para actualizar rápidamente a los últimos paquetes y versiones del kernel. 
+
+
+<a name="particiones"> </a>
+
+### 💻 Particiones en un disco duro
+- Hay tres clases de particiones: primarias, extendidas y lógicas.
+- Muchas distribuciones necesitan que se creen a mano las particiones de Linux utilizando el programa fdisk. Otras pueden crearlas automáticamente.
+- En el primer sector del disco está el registro de arranque maestro “MBR” junto a la tabla de particiones.
+
+<p align="center">
+  <img src="imagenes/particion.png" alt="industria" width="100%">
+</p>
+
+En Linux los manejadores, que se encuentran en el directorio /dev, se usan para comunicarse con los dispositivos de su sistema como discos duros. Los discos duros SSD se nombran con /dev/disksn.
+
+<p align="center">
+  <img src="imagenes/df.png" alt="industria" width="100%">
+</p>
+
+Por lo general se crean dos particiones para Linux, una para ser usada como sistema de ficheros raíz y la otra como espacio de intercambio “swap”.
+La partición swap, es un espacio de intercambio de ayuda a la memoria RAM a pasar datos temporalmente al disco duro.
+
+<p align="center">
+  <img src="imagenes/particiones_servidor.png" alt="industria" width="100%">
+</p>
+
+
+<a name="herramientas_virtualizacion"> </a>
+
+### 💻 Herramientas de virtualización
+- [VirtualBox](https://www.virtualbox.org)
+- [Vmware](https://www.vmware.com)
+- [Microsoft Azure](https://azure.microsoft.com/)
+<p align="center">
+  <img src="imagenes/virtualization_tools.png" alt="industria" width="70%">
+</p>
+
+
+<a name="referencias"> </a>
+
+## 📚 Referencias
+- VirtualBox from https://www.virtualbox.org
+- Vmware from https://www.vmware.com
+- Microsoft Azure from https://azure.microsoft.com/
