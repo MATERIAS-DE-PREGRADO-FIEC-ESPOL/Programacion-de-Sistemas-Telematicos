@@ -20,7 +20,6 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 - [Protocolos de Red](#protocolos)
 - [Componentes de Red](#componentes)
 - [¿Qué es un sistema telemático?](#sistema_telematico)
-- [Modelo de Estructura de Red]
 - [Referencias](#referencias)
 
 <a name="definicion"> </a>

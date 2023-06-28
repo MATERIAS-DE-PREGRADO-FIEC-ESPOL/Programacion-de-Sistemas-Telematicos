@@ -17,39 +17,48 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 - [Máscara de subred IPv4](#mascara_red)
     - [Porción de red y porción de host](#porcion)
     - [Direcciones IPv4 de red, host, y broadcast](#direccion_red)
-    
 - [Referencias](#referencias)
 
+
 <a name="direccion"> </a>
+
 ## 🌐 Dirección IPv4
+
 - La dirección IPv4 tiene 32 bits están agrupados en cuatro bytes de 8 bits llamados octetos. Los octetos se representan en notación decimal punteada.
 
+
 <a name="conversiondecimal"> </a>
+
 ## 🌐 Conversión de decimal en binario
 
 <p align="center">
   <img src="../imagenes/conversion_decimal.png  " alt="conversion_decimal" width="60%">
+</p>
 
 
 <a name="mascara_red"> </a>
+
 ## 🌐 Máscara de subred IPv4
+Para definir las porciones de red y de host de una dirección, los dispositivos utilizan un patrón de 32 bits separado conocido como “máscara de subred”.
+La máscara de subred no contiene realmente las porciones de red y de host de la dirección IPv4, sino que tan solo indica dónde buscar estas porciones en una dirección IPv4 determinada.
+
 
 <a name="porcion"> </a>
+
 ### 🕸️ **Porción de red y porción de host**
 
 <p align="center">
   <img src="../imagenes/porcion_red.png" alt="porcion_red" width="60%">
-
-- Para definir las porciones de red y de host de una dirección, los dispositivos utilizan un patrón de 32 bits separado conocido como “máscara de subred”.
-- La máscara de subred no contiene realmente las porciones de red y de host de la dirección IPv4, sino que tan solo indica dónde buscar estas porciones en una dirección IPv4 determinada.
+</p>
 
 
 <a name="direccion_red"> </a>
+
 ### 🕸️ **Direcciones IPv4 de red, host, y broadcast**
 
 <p align="center">
   <img src="../imagenes/red_host_broadcast.png" alt="red_host_broadcast" width="80%">
-
+</p>
 
 
 ## Direcciones IPv4 unicast, broadcast y multicast
