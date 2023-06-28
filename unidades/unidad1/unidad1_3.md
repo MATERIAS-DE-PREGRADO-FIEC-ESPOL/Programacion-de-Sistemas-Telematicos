@@ -229,6 +229,9 @@ Las topologías de red están compuestas de dispositivos intermedios y finales d
   <img src="../imagenes/unidad1_3_topologia2.png" alt="red_domestica" width="80%">
 </p>
 
+
+<a name="internet"> </a>
+
 ## 🌐 Internet: Mapa de cables submarinos
 
 **South Pacific Cable System (SPSC)/Mistral**
