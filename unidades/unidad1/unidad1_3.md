@@ -47,7 +47,10 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 <p align="center">
   <img src="../imagenes/conversion_decimal.png  " alt="conversion_decimal" width="60%">
 </p>
+<<<<<<< HEAD
+=======
 
+>>>>>>> b766d35559fd0e472b73b44a9fc40bcdb2d2cbfb
 
 <a name="estructura"> </a>
 
@@ -55,7 +58,13 @@ Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para 
 
 <a name="porcion"> </a>
 
+<<<<<<< HEAD
+<p align="center">
+  <img src="../imagenes/porcion_red.png" alt="porcion_red" width="60%">
+</p>
+=======
 ### 🕸️ Porción de red y porción de host
+>>>>>>> b766d35559fd0e472b73b44a9fc40bcdb2d2cbfb
 
 - Para definir las porciones de red y de host de una dirección, los dispositivos utilizan un patrón de 32 bits separado conocido como “máscara de subred”.
 - La máscara de subred no contiene realmente las porciones de red y de host de la dirección IPv4, sino que tan solo indica dónde buscar estas porciones en una dirección IPv4 determinada.
