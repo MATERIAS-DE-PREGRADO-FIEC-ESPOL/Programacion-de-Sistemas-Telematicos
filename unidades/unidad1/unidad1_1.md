@@ -9,7 +9,8 @@ plugins:
 # Unidad 1: Introducción a sistemas telemáticos
 
 ## 🎯 Objetivo de Aprendizaje
-Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para la comunicación entre diferentes redes.
+Al finalizar la clase el estudiante será capaz de:
+- Efectuar cálculos de direccionamiento IP usando diagramas de arquitectura para la comunicación entre diferentes redes.
 
 # 1.1. Arquitectura de comunicación de datos
 - [¿Qué es la Red?](#definicion)
