@@ -31,26 +31,26 @@ Mientras que MySQL es un sistema de gestión de base de datos relacional de soft
 
 ## ACTIVIDADES
 
-1.	Utilice Windows o una máquina virtual con la distribución de Ubuntu.
+1) Utilice Windows o una máquina virtual con la distribución de Ubuntu.
 
-2. Descargue el dataset [Netflix Userbase](../trabajo3/Netflix%20Userbase.csv).
+2) Descargue el dataset [Netflix Userbase](../trabajo3/Netflix%20Userbase.csv).
 
 **Acerca del dataset:**
 - El conjunto de datos proporciona una instantánea de una muestra de la base de usuarios de Netflix, mostrando diversos aspectos de las suscripciones de los usuarios, los ingresos, los detalles de la cuenta y la actividad. Cada fila representa a un usuario único, identificado por su ID de usuario. El conjunto de datos incluye información como el tipo de suscripción del usuario (Básica, Estándar o Premium), los ingresos mensuales generados por su suscripción, la fecha en la que se unió a Netflix (Fecha de suscripción), la fecha de su último pago (Fecha del último pago) y el país en el que se encuentra. 
 - Se han incluido columnas adicionales para proporcionar información sobre el comportamiento y las preferencias de los usuarios. Estas columnas incluyen el tipo de dispositivo (por ejemplo, Smart TV, móvil, ordenador de sobremesa, tableta), el tiempo total de visionado (en minutos) y el estado de la cuenta (si la cuenta está activa o no). El conjunto de datos es una representación sintética y no refleja los datos reales de los usuarios de Netflix. Se puede utilizar para el análisis y el modelado con el fin de comprender las tendencias de los usuarios, las preferencias y la generación de ingresos dentro de una hipotética base de usuarios de Netflix.
 
-3. Diseñe el modelo entidad-relación, incluyendo entidades, atributos, tipos de atributos, tipos de datos, relacionales, cardinalidad.
+3) Diseñe el modelo entidad-relación, incluyendo entidades, atributos, tipos de atributos, tipos de datos, relacionales, cardinalidad.
 
-4.	Utilice la línea de comandos de Postgre para crear una base de datos con el nombre “Netflix Userbase”. Cree las tablas correspondientes para registrar los datos importados. 
+4) Utilice la línea de comandos de Postgre para crear una base de datos con el nombre “Netflix Userbase”. Cree las tablas correspondientes para registrar los datos importados. 
 
-5.	Para el manejo del dataset puede hacer uso de Python con el siguiente código:
+5) Para el manejo del dataset puede hacer uso de Python con el siguiente código:
 <p align="center">
   <img src="pandas.png" alt="pandas" width="80%">
 </p>
 
-6.	Importación del dataset a las tablas correspondientes en Postgre. Nota: Usted puede modificar el contenido del dataset previo a la importación.
+6) Importación del dataset a las tablas correspondientes en Postgre. Nota: Usted puede modificar el contenido del dataset previo a la importación.
 
-7.	Desarrolle una aplicación web con backend en Node.js y frontend en REACT, para presentar los resultados de las siguientes consultas:
+7) Desarrolle una aplicación web con backend en Node.js y frontend en REACT, para presentar los resultados de las siguientes consultas:
 
 - Coloque el enlace del repositorio de GitHub con su código fuente.
 
