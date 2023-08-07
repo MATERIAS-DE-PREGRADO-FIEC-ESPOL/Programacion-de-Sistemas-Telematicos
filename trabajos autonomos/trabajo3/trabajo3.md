@@ -45,7 +45,7 @@ Mientras que MySQL es un sistema de gestión de base de datos relacional de soft
 
 5) Para el manejo del dataset puede hacer uso de Python con el siguiente código:
 <p align="center">
-  <img src="pandas.png" alt="pandas" width="80%">
+  <img src="pandas.png" alt="pandas" width="65%">
 </p>
 
 6) Importación del dataset a las tablas correspondientes en Postgre. Nota: Usted puede modificar el contenido del dataset previo a la importación.
