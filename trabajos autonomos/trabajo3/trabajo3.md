@@ -48,19 +48,17 @@ Mientras que MySQL es un sistema de gestión de base de datos relacional de soft
   <img src="pandas.png" alt="pandas" width="80%">
 </p>
 
-***Ilustración 1. Código en Phyton usando Pandas para depuración de dataset***
-
 6.	Importación del dataset a las tablas correspondientes en Postgre. Nota: Usted puede modificar el contenido del dataset previo a la importación.
 
 7.	Desarrolle una aplicación web con backend en Node.js y frontend en REACT, para presentar los resultados de las siguientes consultas:
 
 - Coloque el enlace del repositorio de GitHub con su código fuente.
 
-a) Presente el número de usuarios que se suscribieron a Netflix por cada año.
+- Presente el número de usuarios que se suscribieron a Netflix por cada año.
 
-b) Presente en una gráfica en barras los usuarios por países que utilizan Tablet.
+- Presente en una gráfica en barras los usuarios por países que utilizan Tablet.
 
-c) Presente el número de pagos que han realizado los usuarios que se encuentran en United States.
+- Presente el número de pagos que han realizado los usuarios que se encuentran en United States.
 
 Nota: Argumente las respuestas explicando el proceso de creación de la página web incluyendo las imágenes. Para una mejor presentación de los datos use estilos CSS.
 
