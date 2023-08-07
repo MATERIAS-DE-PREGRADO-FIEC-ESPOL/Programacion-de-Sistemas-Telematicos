@@ -31,3 +31,8 @@
 * [Trabajo autónomo 2 Aprovisionamiento de direcciones IPv4 en una red empresarial](trabajos autonomos/trabajo2/trabajo2.md)
 
 * [Trabajo autónomo 3 Desarrollo web con base de datos](trabajos autonomos/trabajo3/trabajo3.md)
+
+## LECTURAS COMPLEMENTARIAS
+* [Lectura 1 Visión general de las bases de datos](lecturas/PST%20Lectura%201%20Visión%20general%20de%20las%20bases%20de%20datos.pdf)
+
+* [Lectura 2 Normalización](lecturas/PST%20Lectura%202%20Normalización.pdf)
