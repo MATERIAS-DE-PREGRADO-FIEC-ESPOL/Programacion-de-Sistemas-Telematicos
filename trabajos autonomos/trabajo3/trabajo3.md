@@ -45,7 +45,7 @@ Mientras que MySQL es un sistema de gestión de base de datos relacional de soft
 
 5.	Para el manejo del dataset puede hacer uso de Python con el siguiente código:
 <p align="center">
-  <img src="pandas.png" alt="pandas" width="100%">
+  <img src="pandas.png" alt="pandas" width="80%">
 </p>
 
 ***Ilustración 1. Código en Phyton usando Pandas para depuración de dataset***
