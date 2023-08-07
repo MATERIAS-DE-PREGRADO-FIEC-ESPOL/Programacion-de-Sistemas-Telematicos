@@ -44,6 +44,7 @@ Contiene el proceso explicado con la resolución correspondiente. Determine la c
 
 <p align="center">
   <img src="../imagenes/trabajo2_topologia0_resuelta.png" alt="trabajo1" width="80%">
+</p>
 
 <br>
 <br>
@@ -504,6 +505,7 @@ La organización tiene una dirección de red 192.37.0.0/16 que se dividirá como
 <br>
 <p align="center">
   <img src="../imagenes/trabajo2_topologia_red_e.png" alt="trabajo1" width="90%">
+</p>
 <br>
 <br>
 
