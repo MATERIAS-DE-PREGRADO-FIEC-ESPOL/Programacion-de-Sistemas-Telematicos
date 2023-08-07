@@ -39,7 +39,11 @@
 
 ## NOTAS TÉCNICAS
 * [Nota Técnica 1 Modelo de redes de datos](notas%tecnicas/Nota%Técnica%1%Modelo%de%redes%de%datos.pdf)
+
 * [Nota Técnica 2 Administración de Linux mediante línea de comandos](notas%tecnicas/Nota%Técnica%2%Administración%de%Linux%mediante%línea%de%comandos)
+
 * [Nota Técnica 3 Diseño de Modelo Entidad Relación](notas%tecnicas/Nota%Técnica%3%Diseño%de%Modelo%Entida%Relación)
+
 * [Nota Técnica 4 Desarrollo web local y en la nube con REACT Node.js MySQL](notas%tecnicas/Nota%Técnica%4%Desarrollo%web%local%y%en%la%nube%con%REACT%Node.js%MySQL)
+
 * [Nota Técnica 5 Desarrollo móvil](notas%tecnicas/Nota%Técnica%5%Desarrollo%móvil)
