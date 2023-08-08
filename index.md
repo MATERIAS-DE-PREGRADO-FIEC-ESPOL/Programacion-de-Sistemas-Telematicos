@@ -38,12 +38,12 @@
 * [Lectura 2 Normalización](lecturas/PST%20Lectura%202%20Normalización.pdf)
 
 ## NOTAS TÉCNICAS
-* [Nota Técnica 1 Modelo de redes de datos](notas%tecnicas/Nota%Tecnica%1%Modelo%de%redes%de%datos.pdf)
+* [Nota Técnica 1 Modelo de redes de datos](notas/Nota%20Tecnica%201%20Modelo%20de%20redes%20de%20datos.pdf)
 
-* [Nota Técnica 2 Administración de Linux mediante línea de comandos](notas%tecnicas/Nota%Tecnica%2%Administración%de%Linux%mediante%línea%de%comandos.pdf)
+* [Nota Técnica 2 Administración de Linux mediante línea de comandos](notas/Nota%20Tecnica%202%20Administración%20de%20Linux%20mediante%20línea%20de%20comandos.pdf)
 
-* [Nota Técnica 3 Diseño de Modelo Entidad Relación](notas%tecnicas/Nota%Teecnica%3%Diseño%de%Modelo%Entidad%Relación.pdf)
+* [Nota Técnica 3 Diseño de Modelo Entidad Relación](notas/Nota%20Tecnica%203%20Diseño%20de%20Modelo%20Entidad%20Relación.pdf)
 
-* [Nota Técnica 4 Desarrollo web local y en la nube con REACT Node.js MySQL](notas%tecnicas/Nota%Tecnica%4%Desarrollo%web%local%y%en%la%nube%con%REACT%Node.js%MySQL.pdf)
+* [Nota Técnica 4 Desarrollo web local y en la nube con REACT Node.js MySQL](notas/Nota%20Tecnica%203%20Diseño%20de%20Modelo%20Entidad%20Relación.pdf)
 
-* [Nota Técnica 5 Desarrollo móvil](notas%tecnicas/Nota%Tecnica%5%Desarrollo%móvil.pdf)
+* [Nota Técnica 5 Desarrollo móvil](notas/Nota%20Tecnica%205%20Desarrollo%20móvil.pdf)
