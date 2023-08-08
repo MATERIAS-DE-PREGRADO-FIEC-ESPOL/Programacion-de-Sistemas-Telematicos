@@ -18,7 +18,7 @@
 * Unidad 2. Administración de tecnologías web
     * [2.1. Aplicaciones basadas en red](unidades/unidad2/unidad2_1.md)
     * [2.2. Tecnologías web para dispositivos telemáticos](unidades/unidad2/unidad2_2.md)
-    * [2.3. Gestores de base de datos](unidades/unidad2/unidad2_3.md)
+    * [2.3. Base de datos](unidades/unidad2/unidad2_3.md)
 
 * Unidad 3. Control móvil de sistemas telemáticos
     * [3.1. Entorno de desarrollo móvil](unidades/unidad3/unidad3_1.md)

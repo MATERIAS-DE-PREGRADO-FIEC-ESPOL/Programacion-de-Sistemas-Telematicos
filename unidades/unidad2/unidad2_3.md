@@ -12,7 +12,7 @@ plugins:
 Al finalizar la clase el estudiante será capaz de:
 - Utilizar tecnologías web basadas en red para el monitoreo del estado y la información de los dispositivos telemáticos.
 
-# 2.2 Tecnologías web para dispositivos telemáticos
+# 2.3 Base de datos
 - [Introducción](#introduccion)
 - [Modelo lógico](#modelo)
     - [Entidad](#entidad)
