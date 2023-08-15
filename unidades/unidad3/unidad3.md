@@ -1,34 +1,55 @@
-## 🎯 Objetivo de Aprendizaje 
+---
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme
+---
 
-Desarrollar interfaces de usuario en entornos móvil para el control remoto de sistemas telemáticos.
+[Regresar](/Programacion-de-Sistemas-Telematicos/)
+
+# Unidad 3 Control móvil de sistemas telemáticos
+
+## 🎯 Objetivo de Aprendizaje
+Al finalizar la clase el estudiante será capaz de:
+- Utilizar tecnologías web basadas en red para el monitoreo del estado y la información de los dispositivos telemáticos.
+
+# 3.1. Entorno de desarrollo móvil
+- [Introducción](#introduccion)
+    - [Android](#android)
+    - [Estructura del sistema operativo](estructura)
+- [Modelo lógico](#modelo)
+
+<a name="introduccion"> </a>
+## 🌐 Introducción
+- La principal diferencia técnica entre los sistemas operativos de los dispositivos móviles y los utilizados en los ordenadores portátiles y de sobremesa es que el sistema operativo móvil no es un verdadero sistema multitarea. 
+- En los dispositivos móviles, sólo puede estar activa una aplicación a la vez. Cuando se inicia otra aplicación, o ésta es interrumpida por otra (por ejemplo, una llamada telefónica), la aplicación que se estaba ejecutando pasa a segundo plano. Permanece en segundo plano hasta que el usuario accede a ella de nuevo. Si permanece demasiado tiempo en segundo plano, o si la memoria disponible es demasiado escasa, el sistema operativo puede eliminarla.
+- Una característica clave de un dispositivo móvil es la capacidad de conocer su entorno actual a través de sensores incorporados. Los dispositivos móviles tienen sensores diseñados para captar dónde
+
+
+<a name="android"> </a>
 
 ## 🌐 Android
 
-+ Proporciona una plataforma para usuarios móviles.
-+ Carece de los paquetes tradicionales de GNU / Linux para que sea compatible con el escritorio.
+- Proporciona una plataforma para usuarios móviles.
+- Carece de los paquetes tradicionales de GNU / Linux para que sea compatible con el escritorio.
 + Patrocinado por Google.
 
+
+<a name="estructura"> </a>
+
 ## 🌐 Estructura del sistema operativo
+
 1. Aplicaciones escritas en Java.
 2. Arquitectura diseñada para simplificar la reutilización de componentes.
 3. Incluye un conjunto de bibliotecas de C/C++ usadas por varios componentes del sistema
 4. Incluye un set de bibliotecas base que proporcionan la mayor parte de las funciones disponibles en las bibliotecas base del lenguaje Java.
 5. Android depende de Linux para los servicios base del sistema como seguridad, gestión de memoria, gestión de procesos, pila de red y modelo de controladores.
 
-
-## 🌐Entorno de Desarrollo Móvil
-
-+ Java JDK 1.6+
-(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-+ IDE Eclipse 
-(http://www.eclipse.org/downloads/)
-+ Android SDK
-(http://developer.android.com/sdk/index.html)
-+ AVD Manager
-+ Android Development Tools
-( https://dll-ssl.google.com/android/eclipse/ )
-
 ## 🌐Estructura de un proyecto en Android Studio
+
+
+<p align="center">
+  <img src="../imagenes/pst_unidad3_1_android_studio.png" alt="modelos_red" width="100%">
+</p>
 
 app>java>com.example.myfirstapp>MainActivity
 Esta es la actividad principal (el punto de entrada para tu app). Cuando compilas y ejecutas la app, el sistema inicia una instancia de esta Activity y carga su diseño.
@@ -42,9 +63,6 @@ Dos archivos con este nombre: uno para el proyecto ("Project: MyFirstApp") y otr
 app>manifests>AndroidManifest.xml
 El archivo de manifiesto describe las características fundamentales de la app y define cada uno de sus componentes.
 
-Diseño de la interfaz de usuario
-
-imagen
 
 ## 🌐Componentes de una aplicación
 
@@ -73,11 +91,13 @@ Es el elemento básico de comunicación entre los distintos componentes Android,
 ## 🌐 Prototipado móvil
 
 
-
-
 ## 🌐 Desarrollando una Aplicación
 
 Crear una aplicación donde se ingresa el nombre del usuario y la clave, al dar click en “Login” el usuario ingresará a la aplicación móvil.
+
+<p align="center">
+  <img src="../imagenes/pst_unidad3_1_basic_app.png" alt="basic" width="65%">
+</p>
 
 
 ## 🌐 Interfaz de usuario: Layouts
