@@ -16,7 +16,6 @@ Al finalizar la clase el estudiante será capaz de:
 - [Introducción](#introduccion)
     - [Android](#android)
     - [Estructura del sistema operativo](estructura)
-- [Modelo lógico](#modelo)
 
 <a name="introduccion"> </a>
 ## 🌐 Introducción
