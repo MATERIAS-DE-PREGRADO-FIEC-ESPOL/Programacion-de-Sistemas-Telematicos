@@ -21,7 +21,7 @@
     * [2.3. Base de datos](unidades/unidad2/unidad2_3.md)
 
 * Unidad 3. Control móvil de sistemas telemáticos
-    * [3.1. Entorno de desarrollo móvil](unidades/unidad3/unidad3_1.md)
+    * [3.1. Entorno de desarrollo móvil](unidades/unidad3/unidad3.md)
     * [3.2. Patrones de diseño móvil](unidades/unidad3/unidad3_2.md)
     * [3.3. Aplicaciones móviles en Internet](unidades/unidad3/unidad3_3.md)
 
