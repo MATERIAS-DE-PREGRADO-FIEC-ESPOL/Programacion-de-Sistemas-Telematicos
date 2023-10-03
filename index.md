@@ -6,7 +6,7 @@
 
 
 ## POLÍTICAS
-
+* [II PAO 2023 PST Políticas del curso Adriana Collaguazo](https://aulavirtual.espol.edu.ec/files/4355172/download?download_frd=1)
 
 ## UNIDADES
 * Unidad 1: Introducción a sistemas telemáticos
