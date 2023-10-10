@@ -19,7 +19,7 @@ Al finalizar la clase el estudiante será capaz de:
 <a name="modelo_red"> </a>
 ## 🌐 Modelos de estructura de red
 <p align="center">
-  <img src="../imagenes/modelos_red.png" alt="modelos_red" width="80%">
+  <img src="../imagenes/modelos_red.png" alt="modelos_red" width="100%">
 </p>
 
 
