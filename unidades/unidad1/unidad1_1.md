@@ -120,5 +120,5 @@ El dispositivo recoge datos GPS y otros datos específicos del vehículo y los t
 Los datos telemáticos capturados pueden incluir ubicación, velocidad, tiempo de ralentí, aceleración o frenado bruscos, consumo de combustible, averías del vehículo y otros datos. Cuando se analiza en busca de eventos y patrones concretos, esta información puede proporcionar información detallada sobre toda una flota.
 
 <p align="center">
-  <img src="../imagenes/unidad1_2_vehicle_tracking.png" alt="telematica" width="50%">
+  <img src="../imagenes/unidad1_2_vehicle_tracking.png" alt="telematica" width="100%">
 </p>
