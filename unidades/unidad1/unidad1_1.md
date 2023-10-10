@@ -21,6 +21,7 @@ Al finalizar la clase el estudiante será capaz de:
 - [Protocolos de Red](#protocolos)
 - [Componentes de Red](#componentes)
 - [¿Qué es un sistema telemático?](#sistema_telematico)
+  - [¿Cómo funciona la telemática?](#telematica)
 - [Referencias](#referencias)
 
 <a name="definicion"> </a>
@@ -99,11 +100,25 @@ Una dirección IP puede configurarse manualmente o ser asignada automáticamente
 
 ## 🌐 ¿Qué es un sistema telemático?
 Es un sistema compuesto por dispositivos interconectados a la red de datos, diseñados para realizar una función específica siendo una combinación de ambos hardware y software.
-imagen
+
 - Puede o no puede contener un sistema operativo para el funcionamiento.
 - El firmware es pre-programado y no alterado por el usuario final.
 - Los requerimientos de aplicaciones específicas como uso de rendimiento, energía, memoria son factores decisivos.
 
 <p align="center">
   <img src="../imagenes/sistema_telematico.png" alt="telematico" width="50%">
+</p>
+
+
+<a name="telematica"> </a>
+
+## 🌐 ¿Cómo funciona la telemática?
+En esencia, un sistema telemático incluye un dispositivo de seguimiento instalado en un vehículo que permite enviar, recibir y almacenar datos telemétricos. Se conecta a través del puerto de diagnóstico a bordo (ODBII) o CAN-BUS del propio vehículo con una tarjeta SIM, y un módem a bordo permite la comunicación a través de una red inalámbrica.
+
+El dispositivo recoge datos GPS y otros datos específicos del vehículo y los transmite a un servidor centralizado a través de una red de telefonía móvil o comunicación por satélite. El servidor interpreta los datos y los muestra a los usuarios finales a través de sitios web seguros y aplicaciones optimizadas para teléfonos inteligentes y tabletas.
+
+Los datos telemáticos capturados pueden incluir ubicación, velocidad, tiempo de ralentí, aceleración o frenado bruscos, consumo de combustible, averías del vehículo y otros datos. Cuando se analiza en busca de eventos y patrones concretos, esta información puede proporcionar información detallada sobre toda una flota.
+
+<p align="center">
+  <img src="../imagenes/unidad1_2_vehicle_tracking.png" alt="telematica" width="50%">
 </p>
