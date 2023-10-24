@@ -20,7 +20,7 @@ Al finalizar la clase el estudiante será capaz de:
     - [Direcciones IPv4 de red, host, y broadcast](#direccion_red)
 - [Asignación de una dirección IPv4 estática a un host](#estatica)
 - [Asignación de una dirección IPv4 dinámica a un host](#dinamica)
-- [Transmisión de mensajes en la red](#mensaje)
+- [Transmisión de mensajes en la red](#transmision)
 - [Clases de direcciones IPv4](#clases_direcciones)
 - [Conectividad a la red](#conectividad)
 - [¿Cómo crear una red LAN?](#lan)
