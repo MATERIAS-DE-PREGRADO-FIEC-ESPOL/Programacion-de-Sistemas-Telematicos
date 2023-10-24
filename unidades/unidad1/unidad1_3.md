@@ -94,11 +94,11 @@ Las direcciones IP estáticas se utilizan en situaciones específicas en las que
 Es importante tener en cuenta que el uso de direcciones IP estáticas puede requerir una configuración manual. Además, asegúrate de que la dirección IP estática que elijas no entre en conflicto con otras direcciones IP en tu red para evitar problemas de conectividad.
 
 <p align="center">
-  <img src="../imagenes/unidad1_3_ip_estatica1.png" alt="red_host_broadcast" width="80%">
+  <img src="../imagenes/unidad1_3_ip_estatica1.png" alt="static" width="70%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/unidad1_3_ip_estatica2.png" alt="red_host_broadcast" width="80%">
+  <img src="../imagenes/unidad1_3_ip_estatica2.png" alt="static" width="70%">
 </p>
 
 
