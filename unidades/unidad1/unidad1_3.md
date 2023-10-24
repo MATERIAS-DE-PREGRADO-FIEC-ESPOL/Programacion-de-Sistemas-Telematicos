@@ -23,7 +23,7 @@ Al finalizar la clase el estudiante será capaz de:
 - [Transmisión de mensajes en la red](#mensaje)
 - [Clases de direcciones IPv4](#clases_direcciones)
 - [Conectividad a la red](#conectividad)
-¿Cómo crear una red LAN?
+- [¿Cómo crear una red LAN?](#lan)
 - [Topologías de red](#topologias)
 - [Internet: Mapa de cables submarinos](#internet)
 - [Administración de sistemas operativos en red](#sistemas_operativos)
