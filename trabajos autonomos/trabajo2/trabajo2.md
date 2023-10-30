@@ -343,11 +343,11 @@ b.	Complete la tabla siguiente con las direcciones IP y las máscaras de subred 
 </table>
 <br>
 
-**Paso 4: Análisis**
+**Paso 3: Análisis**
 
-- a.	En caso que la conexión falle entre R3 y R2, ¿es posible seguir enviando información?. Argumente su respuesta.
+- En caso que la conexión falle entre R3 y R2, ¿es posible seguir enviando información?. Argumente su respuesta.
      
-- b.	En caso la conexión falle entre R2 y S2, ¿PC-C y PC-D pueden seguir comunicándose?. Argumente su respuesta.
+- En caso la conexión falle entre R2 y S2, ¿PC-C y PC-D pueden seguir comunicándose?. Argumente su respuesta.
 
 <br>
 <br>
@@ -655,13 +655,11 @@ a.	Complete la siguiente tabla con las direcciones IP y las máscaras de subred 
   </tr>
 </tbody>
 </table>
-
+<br>
+<br>
 
 **Paso 3: Análisis**
 a.	La organización quiere hacer un inventario para reconocer las computadoras de la Sucursal 1 que estén activas y conectados a la subred. ¿Qué acción recomendaría en este caso?.
-     
-<br>
-<br>
 
 ## Desafío (2 puntos extras)
 - Configurar rutas estáticas en los routers de la topología de la red D.
