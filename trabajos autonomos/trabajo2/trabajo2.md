@@ -117,11 +117,13 @@ Complete la siguiente tabla con la información de la subred:**
 <br>
 
 
-## **2. Topología de la red B (20 puntos)** 
+## **2. Topología de la red B (20 puntos)**
+
 La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 200.95.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
 
 <p align="center">
   <img src="../imagenes/trabajo2_topologia_red_b.png" alt="trabajo1" width="90%">
+</p>
 <br>
 <br>
 
@@ -159,7 +161,7 @@ La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace red
 <br>
 <p align="center">
   <img src="../imagenes/trabajo2_topologia_red_c.png" alt="trabajo1" width="90%">
-
+</p>
 <br>
 <br>
 
@@ -356,6 +358,8 @@ Utilice la dirección de red 190.80.0.0/16 para proporcionar las direcciones en 
 <br>
 <p align="center">
   <img src="../imagenes/trabajo2_topologia_red_d.png" alt="trabajo1" width="90%">
+</p>
+<br>
 <br>
 
 **Paso 1: Registre la información de subred.**
