@@ -118,7 +118,7 @@ Complete la siguiente tabla con la información de la subred:**
 
 
 ## **2. Topología de la red B (20 puntos)** 
-La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
+La topología de la red de la parte 1 se expandió para admitir el agregado del router R3 y la red complementaria, como se ilustra en la topología siguiente. Utilice la dirección de red 200.95.0.0/16 para proporcionar direcciones a los dispositivos de red y luego diseñe un nuevo esquema de direccionamiento para admitir el requisito de red adicional.
 
 <p align="center">
   <img src="../imagenes/trabajo2_topologia_red_b.png" alt="trabajo1" width="90%">
@@ -154,7 +154,7 @@ Complete la siguiente tabla con la información de la subred:**
 
 ## **Topología de la red C (20 puntos)**
 
-La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 190.95.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
+La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace redundante entre R1 y R3. Utilice la dirección de red 200.93.0.0/16 para proporcionar direcciones a los dispositivos de red. También proporcione un esquema de direcciones IP que admita estos dispositivos adicionales. Para esta topología, asigne una subred a cada red.
 
 <br>
 <p align="center">
@@ -163,33 +163,14 @@ La topología volvió a cambiar con una LAN nueva agregada al R2 y un enlace red
 <br>
 <br>
 
-**Paso 1: Determine la cantidad de subredes en la topología de la red C.**
 
-<br>
-- ¿Cuántas subredes existen y a qué tipo de clase pertenecen cada una?.
-     
-
-- ¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas?.
-
-      
-- ¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento?.
-
-     
-- ¿Cuál es la máscara de subred nueva en formato decimal punteado?. 
-     
-
-- ¿Cuántas subredes quedan disponibles para usar en el futuro?. 
-
-<br>
-<br>
-
-**Paso 2: Registre la información de subred.**
+**Paso 1: Registre la información de subred.**
 
 <br>
 <table style="border-collapse:collapse;border-color:#9ABAD9;border-spacing:0" class="tg"><thead><tr><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Número de subred</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Dirección de subred</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Primera dirección de host utilizable</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Última dirección de host utilizable</th><th style="background-color:#409cff;border-color:#000000;border-style:solid;border-width:1px;color:#fff;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Dirección de broadcast</th></tr></thead><tbody><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">1</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">2</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">3</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">4</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">5</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr><tr><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">6</td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td><td style="background-color:#EBF5FF;border-color:#000000;border-style:solid;border-width:1px;color:#444;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr></tbody></table>
 <br>
 
-**Paso 3: Asignar direcciones a los dispositivos de red en las subredes.**
+**Paso 2: Asignar direcciones a los dispositivos de red en las subredes.**
 
 a) Complete la siguiente tabla con las direcciones IP y las máscaras de subred para las interfaces del router:
 
@@ -370,32 +351,15 @@ b.	Complete la tabla siguiente con las direcciones IP y las máscaras de subred 
 <br>
 
 ## **Topología de la red D (30 puntos)** 
-Utilice la dirección de red 192.170.0.0/16 para proporcionar las direcciones en el diagrama mostrado.
+Utilice la dirección de red 190.80.0.0/16 para proporcionar las direcciones en el diagrama mostrado.
 
 <br>
 <p align="center">
   <img src="../imagenes/trabajo2_topologia_red_d.png" alt="trabajo1" width="90%">
 <br>
 
-**Paso 1: Determine la cantidad de subredes en la topología de la red D.**
-
-a.	¿Cuántas subredes hay? 
-
-     
-b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas? 
-
-     
-c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento? 
-
-     
-d.	¿Cuál es la máscara de subred nueva en formato decimal punteado?
-
-     
-e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
-     
-
-**Paso 2: Registre la información de subred.
-Complete la siguiente tabla con la información de la subred.**
+**Paso 1: Registre la información de subred.**
+Complete la siguiente tabla con la información de la subred.
 
 <br>
 <style type="text/css">
@@ -490,14 +454,8 @@ Complete la siguiente tabla con la información de la subred.**
 <br>
 <br>
 
-**Paso 3: Análisis**
+**Paso 2: Elaborar la tabla de direccionamiento**
 
-a.	¿Qué beneficios conlleva que R4 esté en la topología de red?
-
-b.	La organización ha detectado que existen problemas en la red interna. El Departamento Técnico ha descubierto que los problemas se deben a que los paquetes se duplican. Además, de que el tráfico de datos se encuentra congestionado. Usted como Ingeniero en mecatrónica de la organización, habiendo aprendido la matería de Programación de Sistemas Telemáticos, le piden que emita un informe técnico en base a estos inconvenientes. ¿Cuál es el inconveniente presentado en este caso?. 
-
-<br>
-<br>
 
 ## **Topología de la red E (30 puntos)**
 La organización tiene una dirección de red 192.37.0.0/16 que se dividirá como se ilustra en la topología siguiente. Debe elegir un esquema de direccionamiento que pueda admitir la cantidad de redes y hosts en la topología.
@@ -509,27 +467,7 @@ La organización tiene una dirección de red 192.37.0.0/16 que se dividirá como
 <br>
 <br>
 
-**Paso 1: Determine la cantidad de subredes en la topología de la red E.**
-
-a.	¿Cuántas subredes hay existen y a qué tipo de clase pertenecen cada una? 
-
-     
-b.	¿Cuántos bits debe tomar prestados para crear la cantidad de subredes requeridas?
-
-     
-c.	¿Cuántas direcciones de host utilizables por subred se encuentran en este esquema de direccionamiento? 
-
-     
-d.	¿Cuál es la máscara de subred nueva en formato decimal punteado? 
-
-     
-e.	¿Cuántas subredes quedan disponibles para usar en el futuro? 
-     
-<br>
-<br>
-
-**Paso 2: Registre la información de subred.
-Complete la siguiente tabla con la información de la subred:**
+**Paso 1: Registre la información de subred.** Complete la siguiente tabla con la información de la subred:
 
 <br>
 <style type="text/css">
@@ -623,7 +561,7 @@ Complete la siguiente tabla con la información de la subred:**
 </table>
 <br>
 
-**Paso 3: Asignar direcciones a los dispositivos de red en las subredes**
+**Paso 2: Asignar direcciones a los dispositivos de red en las subredes**
 a.	Complete la siguiente tabla con las direcciones IP y las máscaras de subred para las interfaces del router:
 
 <style type="text/css">
@@ -715,13 +653,13 @@ a.	Complete la siguiente tabla con las direcciones IP y las máscaras de subred 
 </table>
 
 
-**Paso 4: Análisis**
+**Paso 3: Análisis**
 a.	La organización quiere hacer un inventario para reconocer las computadoras de la Sucursal 1 que estén activas y conectados a la subred. ¿Qué acción recomendaría en este caso?.
      
 <br>
 <br>
 
 ## Desafío (2 puntos extras)
-- Configurar rutas estáticas en los routers de una de las topologías de red que no haya sido hecha en la sesión de clase.
-- Presentar la simulación de la red hecha en la aplicación de GNS3 o Cisco Packet Tracer.
-- Presentar los resultados de pruebas de conectividad usando ping, entre cada una de las redes de la topología de red seleccionada.
+- Configurar rutas estáticas en los routers de la topología de la red D.
+
+- Simular la topología de la red D en GNS3 e incluir las pruebas conectividad con ping.
