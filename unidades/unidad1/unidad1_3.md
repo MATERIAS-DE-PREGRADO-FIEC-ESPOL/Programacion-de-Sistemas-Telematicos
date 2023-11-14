@@ -26,11 +26,6 @@ Al finalizar la clase el estudiante será capaz de:
 - [¿Cómo crear una red LAN?](#lan)
 - [Topologías de red](#topologias)
 - [Internet: Mapa de cables submarinos](#internet)
-- [Administración de sistemas operativos en red](#sistemas_operativos)
-  - [Recursos computacionales para Linux](#recursos)
-  - [Tipos de Instalación](#instalacion)
-  - [Particiones en un disco duro](#particiones)
-  - [Herramientas de virtualización](#herramientas_virtualizacion)
 - [Referencias](#referencias)
 
 
