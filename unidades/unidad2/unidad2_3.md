@@ -133,7 +133,7 @@ https://www.lucidchart.com/
 Structured Query Language (SQL) es el lenguaje utilizado por la mayoría de los sistemas de gestión de base de datos relacional (RDBMSs), incluidos MySQL y PostgreSQL. Aunque muchos RDBMS usan herramientas administrativas para administrar bases de datos, en Linux MySQL y PostgreSQL.
 
 <p align="center">
-  <img src="../imagenes/unid2_1_sql.png" alt="modelos_red" width="100%">
+  <img src="../imagenes/unid2_1_SQL.png" alt="modelos_red" width="100%">
 </p>
 
 
