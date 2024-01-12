@@ -44,6 +44,6 @@
 
 * [Nota Técnica 3 Diseño de Modelo Entidad Relación](notas/Nota%20Tecnica%203%20Diseño%20de%20Modelo%20Entidad%20Relación.pdf)
 
-* [Nota Técnica 4 Desarrollo web local y en la nube con REACT Node.js MySQL](notas/Nota%20Tecnica%203%20Diseño%20de%20Modelo%20Entidad%20Relación.pdf)
+* [Nota Técnica 4 Desarrollo web local y en la nube con REACT Node.js MySQL](notas/Nota%20Tecnic%204%20Desarrollo%20web%20local%20y%20en%20la%20nube%20con%20REACT%20Node.js%20MySQL.pdf)
 
 * [Nota Técnica 5 Desarrollo móvil](notas/Nota%20Tecnica%205%20Desarrollo%20móvil.pdf)
